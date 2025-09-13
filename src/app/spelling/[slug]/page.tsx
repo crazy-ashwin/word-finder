@@ -1,7 +1,10 @@
 import { Metadata } from "next";
+import Link from 'next/link';
 import { notFound } from "next/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { SpellingEntry } from "@/lib/supabase";
+import axios from "axios";
+import Link from "next/link";
 
 interface PageProps {
 	params: Promise<{ slug: string }>;
@@ -9,7 +12,6 @@ interface PageProps {
 
 async function getSpellingEntry(slug: string): Promise<SpellingEntry | null> {
 	try {
-		const axios = require("axios");
 		const response = await axios.get(
 			`${process.env.NEXT_PUBLIC_BASE_URL}/api/spelling?slug=${slug}`,
 			{
@@ -236,6 +238,141 @@ export default async function SpellingPage({ params }: PageProps) {
 						</>
 					)}
 				</p>
+			</div>
+
+			{/* Three Column Layout */}
+			<div className='grid md:grid-cols-3 gap-6 mt-12'>
+				{/* Featured Misspellings */}
+				<div className='bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500'>
+					<h3 className='text-xl font-bold mb-4 text-blue-900'>
+						Featured Misspellings
+					</h3>
+					<ul className='space-y-2'>
+						<li>
+							<Link
+								href='/spelling/abandoned-vs-abandoned'
+								className='text-blue-700 hover:text-blue-900 underline'>
+								Abandoned vs Abandoned
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/abandoning-vs-abandoning'
+								className='text-blue-700 hover:text-blue-900 underline'>
+								Abandoning vs Abandoning
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/abandonment-vs-abandonment'
+								className='text-blue-700 hover:text-blue-900 underline'>
+								Abandonment vs Abandonment
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/abandons-vs-abandons'
+								className='text-blue-700 hover:text-blue-900 underline'>
+								Abandons vs Abandons
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/abandoned-vs-abandoned'
+								className='text-blue-700 hover:text-blue-900 underline'>
+								Abandoned vs Abandoned
+							</Link>
+						</li>
+					</ul>
+				</div>
+
+				{/* Related Misspellings */}
+				<div className='bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500'>
+					<h3 className='text-xl font-bold mb-4 text-purple-900'>
+						Related Misspellings
+					</h3>
+					<ul className='space-y-2'>
+						<li>
+							<Link
+								href='/spelling/desert-vs-dessert'
+								className='text-purple-700 hover:text-purple-900 underline'>
+								Desert vs Dessert
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/forsake-vs-forsake'
+								className='text-purple-700 hover:text-purple-900 underline'>
+								Forsake vs Forsake
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/relinquish-vs-relinquish'
+								className='text-purple-700 hover:text-purple-900 underline'>
+								Relinquish vs Relinquish
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/surrender-vs-surrender'
+								className='text-purple-700 hover:text-purple-900 underline'>
+								Surrender vs Surrender
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/spelling/leave-vs-leave'
+								className='text-purple-700 hover:text-purple-900 underline'>
+								Leave vs Leave
+							</Link>
+						</li>
+					</ul>
+				</div>
+
+				{/* Learned Grammar */}
+				<div className='bg-green-50 p-6 rounded-lg border-l-4 border-green-500'>
+					<h3 className='text-xl font-bold mb-4 text-green-900'>
+						Learned Grammar
+					</h3>
+					<ul className='space-y-2'>
+						<li>
+							<Link
+								href='/grammar/verbs'
+								className='text-green-700 hover:text-green-900 underline'>
+								Verbs Guide
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/grammar/on-vs-one'
+								className='text-green-700 hover:text-green-900 underline'>
+								On vs One
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/grammar/etymology'
+								className='text-green-700 hover:text-green-900 underline'>
+								Etymology
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/grammar/french-words'
+								className='text-green-700 hover:text-green-900 underline'>
+								French Words
+							</Link>
+						</li>
+						<li>
+							<Link
+								href='/grammar/word-endings'
+								className='text-green-700 hover:text-green-900 underline'>
+								Word Endings
+							</Link>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);
