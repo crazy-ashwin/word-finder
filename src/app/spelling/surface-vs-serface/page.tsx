@@ -325,43 +325,7 @@ export default function SurfaceVsSerfacePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/sheriff-vs-sherif" className="text-blue-700 hover:text-blue-900 underline">Sheriff vs Sherif</a></li>
-            <li><a href="/spelling/strike-vs-stike" className="text-blue-700 hover:text-blue-900 underline">Strike vs Stike</a></li>
-            <li><a href="/spelling/altogether-vs-altogather" className="text-blue-700 hover:text-blue-900 underline">Altogether vs Altogather</a></li>
-            <li><a href="/spelling/archive-vs-archieve" className="text-blue-700 hover:text-blue-900 underline">Archive vs Archieve</a></li>
-            <li><a href="/spelling/acing-vs-aceing" className="text-blue-700 hover:text-blue-900 underline">Acing vs Aceing</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/variance-vs-varience" className="text-purple-700 hover:text-purple-900 underline">Variance vs Varience</a></li>
-            <li><a href="/spelling/apparent-vs-aparent" className="text-purple-700 hover:text-purple-900 underline">Apparent vs Aparent</a></li>
-            <li><a href="/spelling/valuable-vs-valueable" className="text-purple-700 hover:text-purple-900 underline">Valuable vs Valueable</a></li>
-            <li><a href="/spelling/temperature-vs-temperatura" className="text-purple-700 hover:text-purple-900 underline">Temperature vs Temperatura</a></li>
-            <li><a href="/spelling/berserk-vs-bersark" className="text-purple-700 hover:text-purple-900 underline">Berserk vs Bersark</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/declarative-sentence" className="text-green-700 hover:text-green-900 underline">Declarative Sentences</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/adjectives-starting-with-vowels" className="text-green-700 hover:text-green-900 underline">Adjectives Starting with Vowels</a></li>
-            <li><a href="/grammar/3rd-grade-worksheets-proper-nouns" className="text-green-700 hover:text-green-900 underline">Proper Nouns Worksheets</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -311,43 +311,7 @@ export default function RelievedVsReleivedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/religious-vs-religeous" className="text-blue-700 hover:text-blue-900 underline">Religious vs Religeous</a></li>
-            <li><a href="/spelling/religious-vs-religius" className="text-blue-700 hover:text-blue-900 underline">Religious vs Religius</a></li>
-            <li><a href="/spelling/religious-vs-religous" className="text-blue-700 hover:text-blue-900 underline">Religious vs Religous</a></li>
-            <li><a href="/spelling/rely-vs-relie" className="text-blue-700 hover:text-blue-900 underline">Rely vs Relie</a></li>
-            <li><a href="/spelling/rely-vs-relly" className="text-blue-700 hover:text-blue-900 underline">Rely vs Relly</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/comforted-vs-comforted" className="text-purple-700 hover:text-purple-900 underline">Comforted vs Comforted</a></li>
-            <li><a href="/spelling/reassured-vs-reassured" className="text-purple-700 hover:text-purple-900 underline">Reassured vs Reassured</a></li>
-            <li><a href="/spelling/eased-vs-eased" className="text-purple-700 hover:text-purple-900 underline">Eased vs Eased</a></li>
-            <li><a href="/spelling/relaxed-vs-relaxed" className="text-purple-700 hover:text-purple-900 underline">Relaxed vs Relaxed</a></li>
-            <li><a href="/spelling/unburdened-vs-unburdened" className="text-purple-700 hover:text-purple-900 underline">Unburdened vs Unburdened</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/old-french-origins" className="text-green-700 hover:text-green-900 underline">Old French Origins</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/verb-forms" className="text-green-700 hover:text-green-900 underline">Verb Forms</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

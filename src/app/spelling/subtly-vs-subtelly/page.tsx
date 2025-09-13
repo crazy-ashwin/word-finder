@@ -297,43 +297,7 @@ export default function SubtlyVsSubtellyPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/subtle-vs-subtle" className="text-blue-700 hover:text-blue-900 underline">Subtle vs Subtle</a></li>
-            <li><a href="/spelling/subtlety-vs-subtelty" className="text-blue-700 hover:text-blue-900 underline">Subtlety vs Subtelty</a></li>
-            <li><a href="/spelling/subtleness-vs-subtelness" className="text-blue-700 hover:text-blue-900 underline">Subtleness vs Subtelness</a></li>
-            <li><a href="/spelling/subtler-vs-subtler" className="text-blue-700 hover:text-blue-900 underline">Subtler vs Subtler</a></li>
-            <li><a href="/spelling/subtlest-vs-subtlest" className="text-blue-700 hover:text-blue-900 underline">Subtlest vs Subtlest</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/delicately-vs-delicately" className="text-purple-700 hover:text-purple-900 underline">Delicately vs Delicately</a></li>
-            <li><a href="/spelling/gentlely-vs-gently" className="text-purple-700 hover:text-purple-900 underline">Gentlely vs Gently</a></li>
-            <li><a href="/spelling/softly-vs-softly" className="text-purple-700 hover:text-purple-900 underline">Softly vs Softly</a></li>
-            <li><a href="/spelling/quietly-vs-quietly" className="text-purple-700 hover:text-purple-900 underline">Quietly vs Quietly</a></li>
-            <li><a href="/spelling/unobtrusively-vs-unobtrusively" className="text-purple-700 hover:text-purple-900 underline">Unobtrusively vs Unobtrusively</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/silent-letters" className="text-green-700 hover:text-green-900 underline">Silent Letters</a></li>
-            <li><a href="/grammar/ly-suffix" className="text-green-700 hover:text-green-900 underline">-ly Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

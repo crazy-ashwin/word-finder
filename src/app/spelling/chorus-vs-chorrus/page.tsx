@@ -119,43 +119,7 @@ export default function ChorusVsChorrusPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/chorus-vs-chorrus" className="text-blue-700 hover:text-blue-900 underline">Chorus vs Chorrus</a></li>
-            <li><a href="/spelling/choir-vs-choir" className="text-blue-700 hover:text-blue-900 underline">Choir vs Choir</a></li>
-            <li><a href="/spelling/ensemble-vs-ensemble" className="text-blue-700 hover:text-blue-900 underline">Ensemble vs Ensemble</a></li>
-            <li><a href="/spelling/refrain-vs-refrain" className="text-blue-700 hover:text-blue-900 underline">Refrain vs Refrain</a></li>
-            <li><a href="/spelling/singers-vs-singers" className="text-blue-700 hover:text-blue-900 underline">Singers vs Singers</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/music-vs-music" className="text-purple-700 hover:text-purple-900 underline">Music vs Music</a></li>
-            <li><a href="/spelling/song-vs-song" className="text-purple-700 hover:text-purple-900 underline">Song vs Song</a></li>
-            <li><a href="/spelling/verse-vs-verse" className="text-purple-700 hover:text-purple-900 underline">Verse vs Verse</a></li>
-            <li><a href="/spelling/lyrics-vs-lyrics" className="text-purple-700 hover:text-purple-900 underline">Lyrics vs Lyrics</a></li>
-            <li><a href="/spelling/melody-vs-melody" className="text-purple-700 hover:text-purple-900 underline">Melody vs Melody</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/greek-words" className="text-green-700 hover:text-green-900 underline">Greek Words</a></li>
-            <li><a href="/grammar/music-terms" className="text-green-700 hover:text-green-900 underline">Music Terms</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/double-letters" className="text-green-700 hover:text-green-900 underline">Double Letters</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

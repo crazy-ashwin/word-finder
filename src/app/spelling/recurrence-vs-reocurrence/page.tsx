@@ -325,43 +325,7 @@ export default function RecurrenceVsReocurrencePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/redundant-vs-redundent" className="text-blue-700 hover:text-blue-900 underline">Redundant vs Redundent</a></li>
-            <li><a href="/spelling/reduce-vs-reduse" className="text-blue-700 hover:text-blue-900 underline">Reduce vs Reduse</a></li>
-            <li><a href="/spelling/recurrence-vs-recurrance" className="text-blue-700 hover:text-blue-900 underline">Recurrence vs Recurrance</a></li>
-            <li><a href="/spelling/recuperate-vs-recouperate" className="text-blue-700 hover:text-blue-900 underline">Recuperate vs Recouperate</a></li>
-            <li><a href="/spelling/recruited-vs-recruted" className="text-blue-700 hover:text-blue-900 underline">Recruited vs Recruted</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/occurrence-vs-occurance" className="text-purple-700 hover:text-purple-900 underline">Occurrence vs Occurance</a></li>
-            <li><a href="/spelling/concurrence-vs-concurance" className="text-purple-700 hover:text-purple-900 underline">Concurrence vs Concurance</a></li>
-            <li><a href="/spelling/incurrence-vs-incurance" className="text-purple-700 hover:text-purple-900 underline">Incurrence vs Incurance</a></li>
-            <li><a href="/spelling/precurrence-vs-precurance" className="text-purple-700 hover:text-purple-900 underline">Precurrence vs Precurance</a></li>
-            <li><a href="/spelling/transcurrence-vs-transcurance" className="text-purple-700 hover:text-purple-900 underline">Transcurrence vs Transcurance</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/ence-suffix" className="text-green-700 hover:text-green-900 underline">-ence Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

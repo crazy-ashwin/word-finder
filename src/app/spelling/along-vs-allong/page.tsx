@@ -134,43 +134,7 @@ export default function AlongVsAllongPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/adverse-vs-adverse" className="text-blue-700 hover:text-blue-900 underline">Adverse vs Adverse</a></li>
-            <li><a href="/spelling/advice-vs-advise" className="text-blue-700 hover:text-blue-900 underline">Advice vs Advise</a></li>
-            <li><a href="/spelling/agreement-vs-aggreement" className="text-blue-700 hover:text-blue-900 underline">Agreement vs Aggreement</a></li>
-            <li><a href="/spelling/alarm-vs-allarm" className="text-blue-700 hover:text-blue-900 underline">Alarm vs Allarm</a></li>
-            <li><a href="/spelling/allusion-vs-alusion" className="text-blue-700 hover:text-blue-900 underline">Allusion vs Alusion</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/beside-vs-beside" className="text-purple-700 hover:text-purple-900 underline">Beside vs Beside</a></li>
-            <li><a href="/spelling/with-vs-with" className="text-purple-700 hover:text-purple-900 underline">With vs With</a></li>
-            <li><a href="/spelling/together-vs-together" className="text-purple-700 hover:text-purple-900 underline">Together vs Together</a></li>
-            <li><a href="/spelling/next-to-vs-next-to" className="text-purple-700 hover:text-purple-900 underline">Next to vs Next to</a></li>
-            <li><a href="/spelling/parallel-vs-parallel" className="text-purple-700 hover:text-purple-900 underline">Parallel vs Parallel</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/prepositions" className="text-green-700 hover:text-green-900 underline">Prepositions Guide</a></li>
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/single-consonants" className="text-green-700 hover:text-green-900 underline">Single Consonants</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

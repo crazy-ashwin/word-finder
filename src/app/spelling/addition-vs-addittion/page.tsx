@@ -185,43 +185,7 @@ export default function AdditionVsAddittionPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/back-vs-back" className="text-blue-700 hover:text-blue-900 underline">Back vs Back</a></li>
-            <li><a href="/spelling/bad-vs-bad" className="text-blue-700 hover:text-blue-900 underline">Bad vs Bad</a></li>
-            <li><a href="/spelling/bag-vs-bag" className="text-blue-700 hover:text-blue-900 underline">Bag vs Bag</a></li>
-            <li><a href="/spelling/ball-vs-ball" className="text-blue-700 hover:text-blue-900 underline">Ball vs Ball</a></li>
-            <li><a href="/spelling/bank-vs-bank" className="text-blue-700 hover:text-blue-900 underline">Bank vs Bank</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/augmentation-vs-augmentation" className="text-purple-700 hover:text-purple-900 underline">Augmentation vs Augmentation</a></li>
-            <li><a href="/spelling/enhancement-vs-enhancement" className="text-purple-700 hover:text-purple-900 underline">Enhancement vs Enhancement</a></li>
-            <li><a href="/spelling/attachment-vs-attachment" className="text-purple-700 hover:text-purple-900 underline">Attachment vs Attachment</a></li>
-            <li><a href="/spelling/appendage-vs-appendage" className="text-purple-700 hover:text-purple-900 underline">Appendage vs Appendage</a></li>
-            <li><a href="/spelling/extra-vs-extra" className="text-purple-700 hover:text-purple-900 underline">Extra vs Extra</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/single-vs-double-consonants" className="text-green-700 hover:text-green-900 underline">Single vs Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

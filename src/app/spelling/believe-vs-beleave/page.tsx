@@ -139,43 +139,7 @@ export default function BelieveVsBeleavePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/recieve-vs-receive" className="text-blue-700 hover:text-blue-900 underline">Recieve vs Receive</a></li>
-            <li><a href="/spelling/achieve-vs-acheive" className="text-blue-700 hover:text-blue-900 underline">Achieve vs Acheive</a></li>
-            <li><a href="/spelling/relieve-vs-releive" className="text-blue-700 hover:text-blue-900 underline">Relieve vs Releive</a></li>
-            <li><a href="/spelling/retrieve-vs-retreive" className="text-blue-700 hover:text-blue-900 underline">Retrieve vs Retreive</a></li>
-            <li><a href="/spelling/deceive-vs-decieve" className="text-blue-700 hover:text-blue-900 underline">Deceive vs Decieve</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/trust-vs-trust" className="text-purple-700 hover:text-purple-900 underline">Trust vs Trust</a></li>
-            <li><a href="/spelling/accept-vs-axcept" className="text-purple-700 hover:text-purple-900 underline">Accept vs Axcept</a></li>
-            <li><a href="/spelling/faith-vs-faith" className="text-purple-700 hover:text-purple-900 underline">Faith vs Faith</a></li>
-            <li><a href="/spelling/confidence-vs-confidance" className="text-purple-700 hover:text-purple-900 underline">Confidence vs Confidance</a></li>
-            <li><a href="/spelling/convince-vs-convince" className="text-purple-700 hover:text-purple-900 underline">Convince vs Convince</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/ie-vs-ei" className="text-green-700 hover:text-green-900 underline">IE vs EI Rules</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/old-english" className="text-green-700 hover:text-green-900 underline">Old English</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -130,43 +130,7 @@ export default function ClassesVsClasesPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/floor-vs-floor" className="text-blue-700 hover:text-blue-900 underline">Floor vs Floor</a></li>
-            <li><a href="/spelling/flower-vs-flower" className="text-blue-700 hover:text-blue-900 underline">Flower vs Flower</a></li>
-            <li><a href="/spelling/fly-vs-fly" className="text-blue-700 hover:text-blue-900 underline">Fly vs Fly</a></li>
-            <li><a href="/spelling/follow-vs-follow" className="text-blue-700 hover:text-blue-900 underline">Follow vs Follow</a></li>
-            <li><a href="/spelling/food-vs-food" className="text-blue-700 hover:text-blue-900 underline">Food vs Food</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/groups-vs-groups" className="text-purple-700 hover:text-purple-900 underline">Groups vs Groups</a></li>
-            <li><a href="/spelling/categories-vs-categories" className="text-purple-700 hover:text-purple-900 underline">Categories vs Categories</a></li>
-            <li><a href="/spelling/types-vs-types" className="text-purple-700 hover:text-purple-900 underline">Types vs Types</a></li>
-            <li><a href="/spelling/divisions-vs-divisions" className="text-purple-700 hover:text-purple-900 underline">Divisions vs Divisions</a></li>
-            <li><a href="/spelling/sections-vs-sections" className="text-purple-700 hover:text-purple-900 underline">Sections vs Sections</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/plural-forms" className="text-green-700 hover:text-green-900 underline">Plural Forms</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

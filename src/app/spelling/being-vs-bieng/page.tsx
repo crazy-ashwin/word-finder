@@ -151,43 +151,7 @@ export default function BeingVsBiengPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/seeing-vs-seeing" className="text-blue-700 hover:text-blue-900 underline">Seeing vs Seeing</a></li>
-            <li><a href="/spelling/agreeing-vs-agreeing" className="text-blue-700 hover:text-blue-900 underline">Agreeing vs Agreeing</a></li>
-            <li><a href="/spelling/feeling-vs-feeling" className="text-blue-700 hover:text-blue-900 underline">Feeling vs Feeling</a></li>
-            <li><a href="/spelling/keeping-vs-keeping" className="text-blue-700 hover:text-blue-900 underline">Keeping vs Keeping</a></li>
-            <li><a href="/spelling/meeting-vs-meeting" className="text-blue-700 hover:text-blue-900 underline">Meeting vs Meeting</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/existence-vs-existance" className="text-purple-700 hover:text-purple-900 underline">Existence vs Existance</a></li>
-            <li><a href="/spelling/creature-vs-creature" className="text-purple-700 hover:text-purple-900 underline">Creature vs Creature</a></li>
-            <li><a href="/spelling/individual-vs-individual" className="text-purple-700 hover:text-purple-900 underline">Individual vs Individual</a></li>
-            <li><a href="/spelling/person-vs-person" className="text-purple-700 hover:text-purple-900 underline">Person vs Person</a></li>
-            <li><a href="/spelling/entity-vs-entity" className="text-purple-700 hover:text-purple-900 underline">Entity vs Entity</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/ei-vs-ie" className="text-green-700 hover:text-green-900 underline">EI vs IE Rules</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/participles" className="text-green-700 hover:text-green-900 underline">Participles</a></li>
-            <li><a href="/grammar/continuous-tenses" className="text-green-700 hover:text-green-900 underline">Continuous Tenses</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

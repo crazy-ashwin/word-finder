@@ -318,43 +318,7 @@ export default function ReferenceVsReferancePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/reference-vs-refrence" className="text-blue-700 hover:text-blue-900 underline">Reference vs Refrence</a></li>
-            <li><a href="/spelling/reference-vs-refference" className="text-blue-700 hover:text-blue-900 underline">Reference vs Refference</a></li>
-            <li><a href="/spelling/reference-vs-referrence" className="text-blue-700 hover:text-blue-900 underline">Reference vs Referrence</a></li>
-            <li><a href="/spelling/referee-vs-reffere" className="text-blue-700 hover:text-blue-900 underline">Referee vs Reffere</a></li>
-            <li><a href="/spelling/referee-vs-referree" className="text-blue-700 hover:text-blue-900 underline">Referee vs Referree</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/evidence-vs-evidnce" className="text-purple-700 hover:text-purple-900 underline">Evidence vs Evidnce</a></li>
-            <li><a href="/spelling/experience-vs-experince" className="text-purple-700 hover:text-purple-900 underline">Experience vs Experince</a></li>
-            <li><a href="/spelling/confidence-vs-confidnce" className="text-purple-700 hover:text-purple-900 underline">Confidence vs Confidnce</a></li>
-            <li><a href="/spelling/patience-vs-patince" className="text-purple-700 hover:text-purple-900 underline">Patience vs Patince</a></li>
-            <li><a href="/spelling/silence-vs-silnce" className="text-purple-700 hover:text-purple-900 underline">Silence vs Silnce</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/ence-suffix" className="text-green-700 hover:text-green-900 underline">-ence Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

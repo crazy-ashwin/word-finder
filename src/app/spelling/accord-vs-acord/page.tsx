@@ -136,43 +136,7 @@ export default function AccordVsAcordPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/activities-vs-activites" className="text-blue-700 hover:text-blue-900 underline">Activities vs Activites</a></li>
-            <li><a href="/spelling/activity-vs-activty" className="text-blue-700 hover:text-blue-900 underline">Activity vs Activty</a></li>
-            <li><a href="/spelling/actor-vs-acter" className="text-blue-700 hover:text-blue-900 underline">Actor vs Acter</a></li>
-            <li><a href="/spelling/actors-vs-akters" className="text-blue-700 hover:text-blue-900 underline">Actors vs Akteres</a></li>
-            <li><a href="/spelling/actress-vs-aktres" className="text-blue-700 hover:text-blue-900 underline">Actress vs Aktres</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/agreement-vs-aggreement" className="text-purple-700 hover:text-purple-900 underline">Agreement vs Aggreement</a></li>
-            <li><a href="/spelling/harmony-vs-harmony" className="text-purple-700 hover:text-purple-900 underline">Harmony vs Harmony</a></li>
-            <li><a href="/spelling/consensus-vs-concensus" className="text-purple-700 hover:text-purple-900 underline">Consensus vs Concensus</a></li>
-            <li><a href="/spelling/conformity-vs-conformity" className="text-purple-700 hover:text-purple-900 underline">Conformity vs Conformity</a></li>
-            <li><a href="/spelling/unity-vs-unity" className="text-purple-700 hover:text-purple-900 underline">Unity vs Unity</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/double-letters" className="text-green-700 hover:text-green-900 underline">Double Letters</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

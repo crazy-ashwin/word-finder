@@ -129,43 +129,7 @@ export default function AchieveVsAcheivePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/advance-vs-advance" className="text-blue-700 hover:text-blue-900 underline">Advance vs Advance</a></li>
-            <li><a href="/spelling/adventure-vs-adventure" className="text-blue-700 hover:text-blue-900 underline">Adventure vs Adventure</a></li>
-            <li><a href="/spelling/advertise-vs-advertise" className="text-blue-700 hover:text-blue-900 underline">Advertise vs Advertise</a></li>
-            <li><a href="/spelling/advice-vs-advise" className="text-blue-700 hover:text-blue-900 underline">Advice vs Advise</a></li>
-            <li><a href="/spelling/advise-vs-advise" className="text-blue-700 hover:text-blue-900 underline">Advise vs Advise</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/accomplish-vs-acomplish" className="text-purple-700 hover:text-purple-900 underline">Accomplish vs Acomplish</a></li>
-            <li><a href="/spelling/attain-vs-attain" className="text-purple-700 hover:text-purple-900 underline">Attain vs Attain</a></li>
-            <li><a href="/spelling/reach-vs-reach" className="text-purple-700 hover:text-purple-900 underline">Reach vs Reach</a></li>
-            <li><a href="/spelling/realize-vs-realize" className="text-purple-700 hover:text-purple-900 underline">Realize vs Realize</a></li>
-            <li><a href="/spelling/complete-vs-complete" className="text-purple-700 hover:text-purple-900 underline">Complete vs Complete</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/ie-vs-ei" className="text-green-700 hover:text-green-900 underline">Ie vs Ei Rules</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   );
 } 

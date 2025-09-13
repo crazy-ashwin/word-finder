@@ -130,43 +130,7 @@ export default function ComedianVsComedienPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/foot-vs-foot" className="text-blue-700 hover:text-blue-900 underline">Foot vs Foot</a></li>
-            <li><a href="/spelling/for-vs-for" className="text-blue-700 hover:text-blue-900 underline">For vs For</a></li>
-            <li><a href="/spelling/force-vs-force" className="text-blue-700 hover:text-blue-900 underline">Force vs Force</a></li>
-            <li><a href="/spelling/foreign-vs-foreign" className="text-blue-700 hover:text-blue-900 underline">Foreign vs Foreign</a></li>
-            <li><a href="/spelling/forest-vs-forest" className="text-blue-700 hover:text-blue-900 underline">Forest vs Forest</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/comic-vs-comic" className="text-purple-700 hover:text-purple-900 underline">Comic vs Comic</a></li>
-            <li><a href="/spelling/entertainer-vs-entertainer" className="text-purple-700 hover:text-purple-900 underline">Entertainer vs Entertainer</a></li>
-            <li><a href="/spelling/humorist-vs-humorist" className="text-purple-700 hover:text-purple-900 underline">Humorist vs Humorist</a></li>
-            <li><a href="/spelling/jokester-vs-jokester" className="text-purple-700 hover:text-purple-900 underline">Jokester vs Jokester</a></li>
-            <li><a href="/spelling/satirist-vs-satirist" className="text-purple-700 hover:text-purple-900 underline">Satirist vs Satirist</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/agent-nouns" className="text-green-700 hover:text-green-900 underline">Agent Nouns</a></li>
-            <li><a href="/grammar/an-endings" className="text-green-700 hover:text-green-900 underline">An Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

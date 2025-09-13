@@ -209,7 +209,7 @@ export default function SpellingIndexPage() {
 								href={`/spelling/${entry.slug}`}
 								className='group'>
 								<Card className='h-full hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2 cursor-pointer border-0 shadow-lg'>
-									<CardHeader className='pb-4'>
+									<CardHeader>
 										<div className='flex items-start justify-between mb-3'>
 											<div className='w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center'>
 												<FileText className='w-4 h-4 text-purple-600' />
@@ -224,9 +224,7 @@ export default function SpellingIndexPage() {
 									</CardHeader>
 									<CardContent className='pt-0'>
 										<p className='text-gray-600 mb-4 line-clamp-3 leading-relaxed'>
-											Learn the correct spelling and
-											common mistakes for this word
-											comparison.
+											{entry.description}
 										</p>
 										<div className='flex items-center text-purple-600 font-medium group-hover:text-purple-700 transition-colors'>
 											<span>Learn More</span>
@@ -277,6 +275,102 @@ export default function SpellingIndexPage() {
 						</div>
 					</div>
 				)}
+				{/* Learning Tips */}
+				<div className='mt-10 bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-200'>
+					<h2 className='text-3xl font-bold text-emerald-900 mb-6 flex items-center'>
+						<span className='mr-3'>💡</span>
+						Pro Spelling Tips
+					</h2>
+					<div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+						<div className='space-y-4'>
+							<div className='flex items-start space-x-3'>
+								<div className='bg-emerald-500 text-white rounded-full p-2 text-sm font-bold'>
+									1
+								</div>
+								<div>
+									<h4 className='font-semibold text-emerald-800 mb-1'>
+										Sound It Out
+									</h4>
+									<p className='text-emerald-700 text-sm'>
+										Break words into syllables and sound
+										them out to identify spelling patterns.
+									</p>
+								</div>
+							</div>
+							<div className='flex items-start space-x-3'>
+								<div className='bg-emerald-500 text-white rounded-full p-2 text-sm font-bold'>
+									2
+								</div>
+								<div>
+									<h4 className='font-semibold text-emerald-800 mb-1'>
+										Visual Memory
+									</h4>
+									<p className='text-emerald-700 text-sm'>
+										Write words multiple times to create
+										visual memory patterns.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div className='space-y-4'>
+							<div className='flex items-start space-x-3'>
+								<div className='bg-emerald-500 text-white rounded-full p-2 text-sm font-bold'>
+									3
+								</div>
+								<div>
+									<h4 className='font-semibold text-emerald-800 mb-1'>
+										Rule Patterns
+									</h4>
+									<p className='text-emerald-700 text-sm'>
+										Learn common spelling rules like &quot;i
+										before e except after c.&quot;
+									</p>
+								</div>
+							</div>
+							<div className='flex items-start space-x-3'>
+								<div className='bg-emerald-500 text-white rounded-full p-2 text-sm font-bold'>
+									4
+								</div>
+								<div>
+									<h4 className='font-semibold text-emerald-800 mb-1'>
+										Practice Daily
+									</h4>
+									<p className='text-emerald-700 text-sm'>
+										Regular practice with challenging words
+										improves spelling accuracy.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* Call to Action */}
+				<div className='text-center mt-12'>
+					<div className='bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 text-white'>
+						<h3 className='text-2xl font-bold mb-4'>
+							Ready to Master Spelling?
+						</h3>
+						<p className='text-blue-100 mb-6 max-w-2xl mx-auto'>
+							Start with any spelling comparison that interests
+							you. Each guide includes correct spellings, common
+							mistakes, and memory tricks to help you learn
+							effectively.
+						</p>
+						<div className='flex flex-col sm:flex-row gap-4 justify-center'>
+							<Link
+								href='/grammar'
+								className='bg-white text-blue-600 px-8 py-3 rounded-xl font-semibold hover:bg-gray-50 transition-colors'>
+								Explore Grammar Topics
+							</Link>
+							<Link
+								href='/confusing-words'
+								className='bg-blue-700 text-white px-8 py-3 rounded-xl font-semibold hover:bg-blue-800 transition-colors border border-white/20'>
+								Confusing Words
+							</Link>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

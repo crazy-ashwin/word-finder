@@ -144,43 +144,7 @@ export default function AudienceVsAudiancePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/spectators-vs-spectators" className="text-blue-700 hover:text-blue-900 underline">Spectators vs Spectators</a></li>
-            <li><a href="/spelling/viewers-vs-viewers" className="text-blue-700 hover:text-blue-900 underline">Viewers vs Viewers</a></li>
-            <li><a href="/spelling/listeners-vs-listeners" className="text-blue-700 hover:text-blue-900 underline">Listeners vs Listeners</a></li>
-            <li><a href="/spelling/crowd-vs-crowd" className="text-blue-700 hover:text-blue-900 underline">Crowd vs Crowd</a></li>
-            <li><a href="/spelling/assembly-vs-assembly" className="text-blue-700 hover:text-blue-900 underline">Assembly vs Assembly</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/public-vs-public" className="text-purple-700 hover:text-purple-900 underline">Public vs Public</a></li>
-            <li><a href="/spelling/readership-vs-readership" className="text-purple-700 hover:text-purple-900 underline">Readership vs Readership</a></li>
-            <li><a href="/spelling/viewership-vs-viewership" className="text-purple-700 hover:text-purple-900 underline">Viewership vs Viewership</a></li>
-            <li><a href="/spelling/market-vs-market" className="text-purple-700 hover:text-purple-900 underline">Market vs Market</a></li>
-            <li><a href="/spelling/constituency-vs-constituency" className="text-purple-700 hover:text-purple-900 underline">Constituency vs Constituency</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/ence-endings" className="text-green-700 hover:text-green-900 underline">Ence Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

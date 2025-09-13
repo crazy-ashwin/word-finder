@@ -147,43 +147,7 @@ export default function AwfulVsAwefulPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/awful-vs-awfull" className="text-blue-700 hover:text-blue-900 underline">Awful vs Awfull</a></li>
-            <li><a href="/spelling/awkward-vs-ackward" className="text-blue-700 hover:text-blue-900 underline">Awkward vs Ackward</a></li>
-            <li><a href="/spelling/awkward-vs-akward" className="text-blue-700 hover:text-blue-900 underline">Awkward vs Akward</a></li>
-            <li><a href="/spelling/awkward-vs-arkward" className="text-blue-700 hover:text-blue-900 underline">Awkward vs Arkward</a></li>
-            <li><a href="/spelling/awesome-vs-awsome" className="text-blue-700 hover:text-blue-900 underline">Awesome vs Awsome</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/terrible-vs-terrible" className="text-purple-700 hover:text-purple-900 underline">Terrible vs Terrible</a></li>
-            <li><a href="/spelling/horrible-vs-horrible" className="text-purple-700 hover:text-purple-900 underline">Horrible vs Horrible</a></li>
-            <li><a href="/spelling/dreadful-vs-dreadful" className="text-purple-700 hover:text-purple-900 underline">Dreadful vs Dreadful</a></li>
-            <li><a href="/spelling/appalling-vs-appalling" className="text-purple-700 hover:text-purple-900 underline">Appalling vs Appalling</a></li>
-            <li><a href="/spelling/atrocious-vs-atrocious" className="text-purple-700 hover:text-purple-900 underline">Atrocious vs Atrocious</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/old-english" className="text-green-700 hover:text-green-900 underline">Old English</a></li>
-            <li><a href="/grammar/ful-suffix" className="text-green-700 hover:text-green-900 underline">-ful Suffix</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

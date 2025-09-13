@@ -130,43 +130,7 @@ export default function CommenceVsCommensePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/forget-vs-forget" className="text-blue-700 hover:text-blue-900 underline">Forget vs Forget</a></li>
-            <li><a href="/spelling/form-vs-form" className="text-blue-700 hover:text-blue-900 underline">Form vs Form</a></li>
-            <li><a href="/spelling/former-vs-former" className="text-blue-700 hover:text-blue-900 underline">Former vs Former</a></li>
-            <li><a href="/spelling/forward-vs-forward" className="text-blue-700 hover:text-blue-900 underline">Forward vs Forward</a></li>
-            <li><a href="/spelling/found-vs-found" className="text-blue-700 hover:text-blue-900 underline">Found vs Found</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/begin-vs-begin" className="text-purple-700 hover:text-purple-900 underline">Begin vs Begin</a></li>
-            <li><a href="/spelling/start-vs-start" className="text-purple-700 hover:text-purple-900 underline">Start vs Start</a></li>
-            <li><a href="/spelling/initiate-vs-initiate" className="text-purple-700 hover:text-purple-900 underline">Initiate vs Initiate</a></li>
-            <li><a href="/spelling/launch-vs-launch" className="text-purple-700 hover:text-purple-900 underline">Launch vs Launch</a></li>
-            <li><a href="/spelling/embark-vs-embark" className="text-purple-700 hover:text-purple-900 underline">Embark vs Embark</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/ce-endings" className="text-green-700 hover:text-green-900 underline">Ce Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

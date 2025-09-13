@@ -311,43 +311,7 @@ export default function RelievedVsReleavedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/relieve-vs-releave" className="text-blue-700 hover:text-blue-900 underline">Relieve vs Releave</a></li>
-            <li><a href="/spelling/relief-vs-releaf" className="text-blue-700 hover:text-blue-900 underline">Relief vs Releaf</a></li>
-            <li><a href="/spelling/reliable-vs-relieable" className="text-blue-700 hover:text-blue-900 underline">Reliable vs Relieable</a></li>
-            <li><a href="/spelling/relevant-vs-revelant" className="text-blue-700 hover:text-blue-900 underline">Relevant vs Revelant</a></li>
-            <li><a href="/spelling/relevance-vs-revelence" className="text-blue-700 hover:text-blue-900 underline">Relevance vs Revelence</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/believed-vs-beleaved" className="text-purple-700 hover:text-purple-900 underline">Believed vs Beleaved</a></li>
-            <li><a href="/spelling/achieved-vs-acheived" className="text-purple-700 hover:text-purple-900 underline">Achieved vs Acheived</a></li>
-            <li><a href="/spelling/received-vs-recieved" className="text-purple-700 hover:text-purple-900 underline">Received vs Recieved</a></li>
-            <li><a href="/spelling/deceived-vs-decieved" className="text-purple-700 hover:text-purple-900 underline">Deceived vs Decieved</a></li>
-            <li><a href="/spelling/conceived-vs-concieved" className="text-purple-700 hover:text-purple-900 underline">Conceived vs Concieved</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/ie-ei-rules" className="text-green-700 hover:text-green-900 underline">IE vs EI Rules</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

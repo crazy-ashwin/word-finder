@@ -134,43 +134,7 @@ export default function AlarmVsAllarmPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/allusion-vs-alusion" className="text-blue-700 hover:text-blue-900 underline">Allusion vs Alusion</a></li>
-            <li><a href="/spelling/appreciate-vs-appreiciate" className="text-blue-700 hover:text-blue-900 underline">Appreciate vs Appreiciate</a></li>
-            <li><a href="/spelling/accommodation-vs-accommidation" className="text-blue-700 hover:text-blue-900 underline">Accommodation vs Accommidation</a></li>
-            <li><a href="/spelling/arithmetic-vs-arithmatic" className="text-blue-700 hover:text-blue-900 underline">Arithmetic vs Arithmatic</a></li>
-            <li><a href="/spelling/attendance-vs-attendence" className="text-blue-700 hover:text-blue-900 underline">Attendance vs Attendence</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/alert-vs-alert" className="text-purple-700 hover:text-purple-900 underline">Alert vs Alert</a></li>
-            <li><a href="/spelling/warning-vs-warning" className="text-purple-700 hover:text-purple-900 underline">Warning vs Warning</a></li>
-            <li><a href="/spelling/signal-vs-signal" className="text-purple-700 hover:text-purple-900 underline">Signal vs Signal</a></li>
-            <li><a href="/spelling/notification-vs-notification" className="text-purple-700 hover:text-purple-900 underline">Notification vs Notification</a></li>
-            <li><a href="/spelling/caution-vs-caution" className="text-purple-700 hover:text-purple-900 underline">Caution vs Caution</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/italian-words" className="text-green-700 hover:text-green-900 underline">Italian Words</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/single-consonants" className="text-green-700 hover:text-green-900 underline">Single Consonants</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

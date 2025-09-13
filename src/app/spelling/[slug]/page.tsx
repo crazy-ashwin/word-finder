@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Link from 'next/link';
 import { notFound } from "next/navigation";
 import { Card, CardContent } from "@/components/ui/card";
 import { SpellingEntry } from "@/lib/supabase";

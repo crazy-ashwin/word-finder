@@ -144,43 +144,7 @@ export default function AttendVsAttenedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/direction-vs-direction" className="text-blue-700 hover:text-blue-900 underline">Direction vs Direction</a></li>
-            <li><a href="/spelling/director-vs-director" className="text-blue-700 hover:text-blue-900 underline">Director vs Director</a></li>
-            <li><a href="/spelling/discover-vs-discover" className="text-blue-700 hover:text-blue-900 underline">Discover vs Discover</a></li>
-            <li><a href="/spelling/discuss-vs-discuss" className="text-blue-700 hover:text-blue-900 underline">Discuss vs Discuss</a></li>
-            <li><a href="/spelling/distance-vs-distance" className="text-blue-700 hover:text-blue-900 underline">Distance vs Distance</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/participate-vs-participate" className="text-purple-700 hover:text-purple-900 underline">Participate vs Participate</a></li>
-            <li><a href="/spelling/present-vs-present" className="text-purple-700 hover:text-purple-900 underline">Present vs Present</a></li>
-            <li><a href="/spelling/join-vs-join" className="text-purple-700 hover:text-purple-900 underline">Join vs Join</a></li>
-            <li><a href="/spelling/participate-vs-participate" className="text-purple-700 hover:text-purple-900 underline">Participate vs Participate</a></li>
-            <li><a href="/spelling/join-vs-join" className="text-purple-700 hover:text-purple-900 underline">Join vs Join</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/past-tense" className="text-green-700 hover:text-green-900 underline">Past Tense</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-blue-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

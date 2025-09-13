@@ -204,43 +204,7 @@ export default function SurroundVsSorroundPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/surface-vs-serface" className="text-blue-700 hover:text-blue-900 underline">Surface vs Serface</a></li>
-            <li><a href="/spelling/surprise-vs-suprise" className="text-blue-700 hover:text-blue-900 underline">Surprise vs Suprise</a></li>
-            <li><a href="/spelling/surrounding-vs-sorrounding" className="text-blue-700 hover:text-blue-900 underline">Surrounding vs Sorrounding</a></li>
-            <li><a href="/spelling/surrounded-vs-sorrounded" className="text-blue-700 hover:text-blue-900 underline">Surrounded vs Sorrounded</a></li>
-            <li><a href="/spelling/surrounds-vs-sorrounds" className="text-blue-700 hover:text-blue-900 underline">Surrounds vs Sorrounds</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/encircle-vs-encircle" className="text-purple-700 hover:text-purple-900 underline">Encircle vs Encircle</a></li>
-            <li><a href="/spelling/enclose-vs-enclose" className="text-purple-700 hover:text-purple-900 underline">Enclose vs Enclose</a></li>
-            <li><a href="/spelling/circle-vs-cicle" className="text-purple-700 hover:text-purple-900 underline">Circle vs Cicle</a></li>
-            <li><a href="/spelling/border-vs-border" className="text-purple-700 hover:text-purple-900 underline">Border vs Border</a></li>
-            <li><a href="/spelling/perimeter-vs-perimeter" className="text-purple-700 hover:text-purple-900 underline">Perimeter vs Perimeter</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/prefixes" className="text-green-700 hover:text-green-900 underline">Prefixes Guide</a></li>
-            <li><a href="/grammar/sur-prefix" className="text-green-700 hover:text-green-900 underline">Sur- Prefix</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

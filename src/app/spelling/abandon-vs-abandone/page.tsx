@@ -134,43 +134,7 @@ export default function AbandonVsAbandonePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/abandoned-vs-abandoned" className="text-blue-700 hover:text-blue-900 underline">Abandoned vs Abandoned</a></li>
-            <li><a href="/spelling/abandoning-vs-abandoning" className="text-blue-700 hover:text-blue-900 underline">Abandoning vs Abandoning</a></li>
-            <li><a href="/spelling/abandonment-vs-abandonment" className="text-blue-700 hover:text-blue-900 underline">Abandonment vs Abandonment</a></li>
-            <li><a href="/spelling/abandons-vs-abandons" className="text-blue-700 hover:text-blue-900 underline">Abandons vs Abandons</a></li>
-            <li><a href="/spelling/abandoned-vs-abandoned" className="text-blue-700 hover:text-blue-900 underline">Abandoned vs Abandoned</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/desert-vs-dessert" className="text-purple-700 hover:text-purple-900 underline">Desert vs Dessert</a></li>
-            <li><a href="/spelling/forsake-vs-forsake" className="text-purple-700 hover:text-purple-900 underline">Forsake vs Forsake</a></li>
-            <li><a href="/spelling/relinquish-vs-relinquish" className="text-purple-700 hover:text-purple-900 underline">Relinquish vs Relinquish</a></li>
-            <li><a href="/spelling/surrender-vs-surrender" className="text-purple-700 hover:text-purple-900 underline">Surrender vs Surrender</a></li>
-            <li><a href="/spelling/leave-vs-leave" className="text-purple-700 hover:text-purple-900 underline">Leave vs Leave</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/on-vs-one" className="text-green-700 hover:text-green-900 underline">On vs One</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/french-words" className="text-green-700 hover:text-green-900 underline">French Words</a></li>
-            <li><a href="/grammar/word-endings" className="text-green-700 hover:text-green-900 underline">Word Endings</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

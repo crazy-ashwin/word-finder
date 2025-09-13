@@ -304,43 +304,7 @@ export default function SenseVsSencePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/sensible-vs-sensable" className="text-blue-700 hover:text-blue-900 underline">Sensible vs Sensable</a></li>
-            <li><a href="/spelling/sensibility-vs-sensability" className="text-blue-700 hover:text-blue-900 underline">Sensibility vs Sensability</a></li>
-            <li><a href="/spelling/senseless-vs-sensless" className="text-blue-700 hover:text-blue-900 underline">Senseless vs Sensless</a></li>
-            <li><a href="/spelling/sensory-vs-sensery" className="text-blue-700 hover:text-blue-900 underline">Sensory vs Sensery</a></li>
-            <li><a href="/spelling/sensation-vs-sensaton" className="text-blue-700 hover:text-blue-900 underline">Sensation vs Sensaton</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/defence-vs-defense" className="text-purple-700 hover:text-purple-900 underline">Defence vs Defense</a></li>
-            <li><a href="/spelling/fence-vs-fence" className="text-purple-700 hover:text-purple-900 underline">Fence vs Fence</a></li>
-            <li><a href="/spelling/hence-vs-hence" className="text-purple-700 hover:text-purple-900 underline">Hence vs Hence</a></li>
-            <li><a href="/spelling/pence-vs-pence" className="text-purple-700 hover:text-purple-900 underline">Pence vs Pence</a></li>
-            <li><a href="/spelling/silence-vs-silence" className="text-purple-700 hover:text-purple-900 underline">Silence vs Silence</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/se-vs-ce" className="text-green-700 hover:text-green-900 underline">SE vs CE Endings</a></li>
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

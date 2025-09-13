@@ -150,43 +150,7 @@ export default function AppearanceVsAppearencePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/appear-vs-appear" className="text-blue-700 hover:text-blue-900 underline">Appear vs Appear</a></li>
-            <li><a href="/spelling/appeared-vs-appeared" className="text-blue-700 hover:text-blue-900 underline">Appeared vs Appeared</a></li>
-            <li><a href="/spelling/appearing-vs-appearing" className="text-blue-700 hover:text-blue-900 underline">Appearing vs Appearing</a></li>
-            <li><a href="/spelling/appears-vs-appears" className="text-blue-700 hover:text-blue-900 underline">Appears vs Appears</a></li>
-            <li><a href="/spelling/appearances-vs-appearances" className="text-blue-700 hover:text-blue-900 underline">Appearances vs Appearances</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/look-vs-look" className="text-purple-700 hover:text-purple-900 underline">Look vs Look</a></li>
-            <li><a href="/spelling/aspect-vs-aspect" className="text-purple-700 hover:text-purple-900 underline">Aspect vs Aspect</a></li>
-            <li><a href="/spelling/form-vs-form" className="text-purple-700 hover:text-purple-900 underline">Form vs Form</a></li>
-            <li><a href="/spelling/image-vs-image" className="text-purple-700 hover:text-purple-900 underline">Image vs Image</a></li>
-            <li><a href="/spelling/presentation-vs-presentation" className="text-purple-700 hover:text-purple-900 underline">Presentation vs Presentation</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/ance-suffix" className="text-green-700 hover:text-green-900 underline">-ance Suffix</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

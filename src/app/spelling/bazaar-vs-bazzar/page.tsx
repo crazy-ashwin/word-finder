@@ -139,43 +139,7 @@ export default function BazaarVsBazzarPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/bazaar-vs-bazar" className="text-blue-700 hover:text-blue-900 underline">Bazaar vs Bazar</a></li>
-            <li><a href="/spelling/bazaar-vs-bazzar" className="text-blue-700 hover:text-blue-900 underline">Bazaar vs Bazzar</a></li>
-            <li><a href="/spelling/bazaar-vs-bazzar" className="text-blue-700 hover:text-blue-900 underline">Bazaar vs Bazzar</a></li>
-            <li><a href="/spelling/bazaar-vs-bazzar" className="text-blue-700 hover:text-blue-900 underline">Bazaar vs Bazzar</a></li>
-            <li><a href="/spelling/bazaar-vs-bazzar" className="text-blue-700 hover:text-blue-900 underline">Bazaar vs Bazzar</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/market-vs-market" className="text-purple-700 hover:text-purple-900 underline">Market vs Market</a></li>
-            <li><a href="/spelling/fair-vs-fair" className="text-purple-700 hover:text-purple-900 underline">Fair vs Fair</a></li>
-            <li><a href="/spelling/marketplace-vs-marketplace" className="text-purple-700 hover:text-purple-900 underline">Marketplace vs Marketplace</a></li>
-            <li><a href="/spelling/souk-vs-souk" className="text-purple-700 hover:text-purple-900 underline">Souk vs Souk</a></li>
-            <li><a href="/spelling/mart-vs-mart" className="text-purple-700 hover:text-purple-900 underline">Mart vs Mart</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/foreign-words" className="text-green-700 hover:text-green-900 underline">Foreign Words</a></li>
-            <li><a href="/grammar/persian-words" className="text-green-700 hover:text-green-900 underline">Persian Words</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/double-letters" className="text-green-700 hover:text-green-900 underline">Double Letters</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

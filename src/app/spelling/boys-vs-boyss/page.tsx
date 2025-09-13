@@ -151,43 +151,7 @@ export default function BoysVsBoyssPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/few-vs-few" className="text-blue-700 hover:text-blue-900 underline">Few vs Few</a></li>
-            <li><a href="/spelling/field-vs-field" className="text-blue-700 hover:text-blue-900 underline">Field vs Field</a></li>
-            <li><a href="/spelling/fight-vs-fight" className="text-blue-700 hover:text-blue-900 underline">Fight vs Fight</a></li>
-            <li><a href="/spelling/figure-vs-figure" className="text-blue-700 hover:text-blue-900 underline">Figure vs Figure</a></li>
-            <li><a href="/spelling/fill-vs-fill" className="text-blue-700 hover:text-blue-900 underline">Fill vs Fill</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/lads-vs-lads" className="text-purple-700 hover:text-purple-900 underline">Lads vs Lads</a></li>
-            <li><a href="/spelling/youngsters-vs-youngsters" className="text-purple-700 hover:text-purple-900 underline">Youngsters vs Youngsters</a></li>
-            <li><a href="/spelling/children-vs-children" className="text-purple-700 hover:text-purple-900 underline">Children vs Children</a></li>
-            <li><a href="/spelling/youths-vs-youths" className="text-purple-700 hover:text-purple-900 underline">Youths vs Youths</a></li>
-            <li><a href="/spelling/teenagers-vs-teenagers" className="text-purple-700 hover:text-purple-900 underline">Teenagers vs Teenagers</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/plural-forms" className="text-green-700 hover:text-green-900 underline">Plural Forms</a></li>
-            <li><a href="/grammar/y-endings" className="text-green-700 hover:text-green-900 underline">Y Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

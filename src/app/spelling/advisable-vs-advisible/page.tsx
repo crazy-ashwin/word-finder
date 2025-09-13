@@ -185,43 +185,7 @@ export default function AdvisableVsAdvisiblePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/bring-vs-bring" className="text-blue-700 hover:text-blue-900 underline">Bring vs Bring</a></li>
-            <li><a href="/spelling/brother-vs-brother" className="text-blue-700 hover:text-blue-900 underline">Brother vs Brother</a></li>
-            <li><a href="/spelling/build-vs-build" className="text-blue-700 hover:text-blue-900 underline">Build vs Build</a></li>
-            <li><a href="/spelling/building-vs-building" className="text-blue-700 hover:text-blue-900 underline">Building vs Building</a></li>
-            <li><a href="/spelling/business-vs-business" className="text-blue-700 hover:text-blue-900 underline">Business vs Business</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/desirable-vs-desirable" className="text-purple-700 hover:text-purple-900 underline">Desirable vs Desirable</a></li>
-            <li><a href="/spelling/beneficial-vs-beneficial" className="text-purple-700 hover:text-purple-900 underline">Beneficial vs Beneficial</a></li>
-            <li><a href="/spelling/suitable-vs-suitable" className="text-purple-700 hover:text-purple-900 underline">Suitable vs Suitable</a></li>
-            <li><a href="/spelling/judicious-vs-judicious" className="text-purple-700 hover:text-purple-900 underline">Judicious vs Judicious</a></li>
-            <li><a href="/spelling/expedient-vs-expedient" className="text-purple-700 hover:text-purple-900 underline">Expedient vs Expedient</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/able-vs-ible" className="text-green-700 hover:text-green-900 underline">Able vs Ible</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -185,43 +185,7 @@ export default function AdaptationVsAdoptationPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/authority-vs-authority" className="text-blue-700 hover:text-blue-900 underline">Authority vs Authority</a></li>
-            <li><a href="/spelling/available-vs-available" className="text-blue-700 hover:text-blue-900 underline">Available vs Available</a></li>
-            <li><a href="/spelling/average-vs-average" className="text-blue-700 hover:text-blue-900 underline">Average vs Average</a></li>
-            <li><a href="/spelling/avoid-vs-avoid" className="text-blue-700 hover:text-blue-900 underline">Avoid vs Avoid</a></li>
-            <li><a href="/spelling/away-vs-away" className="text-blue-700 hover:text-blue-900 underline">Away vs Away</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/evolution-vs-evolution" className="text-purple-700 hover:text-purple-900 underline">Evolution vs Evolution</a></li>
-            <li><a href="/spelling/accommodation-vs-accomodation" className="text-purple-700 hover:text-purple-900 underline">Accommodation vs Accomodation</a></li>
-            <li><a href="/spelling/conversion-vs-conversion" className="text-purple-700 hover:text-purple-900 underline">Conversion vs Conversion</a></li>
-            <li><a href="/spelling/revision-vs-revision" className="text-purple-700 hover:text-purple-900 underline">Revision vs Revision</a></li>
-            <li><a href="/spelling/variation-vs-variation" className="text-purple-700 hover:text-purple-900 underline">Variation vs Variation</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

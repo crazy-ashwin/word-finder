@@ -119,43 +119,7 @@ export default function ReliableVsRelablePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/relieved-vs-releaved" className="text-blue-700 hover:text-blue-900 underline">Relieved vs Releaved</a></li>
-            <li><a href="/spelling/relieve-vs-releave" className="text-blue-700 hover:text-blue-900 underline">Relieve vs Releave</a></li>
-            <li><a href="/spelling/relief-vs-releaf" className="text-blue-700 hover:text-blue-900 underline">Relief vs Releaf</a></li>
-            <li><a href="/spelling/reliable-vs-relieable" className="text-blue-700 hover:text-blue-900 underline">Reliable vs Relieable</a></li>
-            <li><a href="/spelling/reliable-vs-relible" className="text-blue-700 hover:text-blue-900 underline">Reliable vs Relible</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/available-vs-availible" className="text-purple-700 hover:text-purple-900 underline">Available vs Availible</a></li>
-            <li><a href="/spelling/comfortable-vs-comfortible" className="text-purple-700 hover:text-purple-900 underline">Comfortable vs Comfortible</a></li>
-            <li><a href="/spelling/possible-vs-possable" className="text-purple-700 hover:text-purple-900 underline">Possible vs Possable</a></li>
-            <li><a href="/spelling/visible-vs-visable" className="text-purple-700 hover:text-purple-900 underline">Visible vs Visable</a></li>
-            <li><a href="/spelling/acceptable-vs-acceptible" className="text-purple-700 hover:text-purple-900 underline">Acceptable vs Acceptible</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/able-suffix" className="text-green-700 hover:text-green-900 underline">-able Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

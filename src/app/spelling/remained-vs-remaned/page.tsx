@@ -311,43 +311,7 @@ export default function RemainedVsRemanedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/remaining-vs-remaning" className="text-blue-700 hover:text-blue-900 underline">Remaining vs Remaning</a></li>
-            <li><a href="/spelling/remember-vs-rember" className="text-blue-700 hover:text-blue-900 underline">Remember vs Rember</a></li>
-            <li><a href="/spelling/reminisce-vs-reminence" className="text-blue-700 hover:text-blue-900 underline">Reminisce vs Reminence</a></li>
-            <li><a href="/spelling/remittance-vs-remitance" className="text-blue-700 hover:text-blue-900 underline">Remittance vs Remitance</a></li>
-            <li><a href="/spelling/remuneration-vs-renumeration" className="text-blue-700 hover:text-blue-900 underline">Remuneration vs Renumeration</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/stayed-vs-stayed" className="text-purple-700 hover:text-purple-900 underline">Stayed vs Stayed</a></li>
-            <li><a href="/spelling/continued-vs-continued" className="text-purple-700 hover:text-purple-900 underline">Continued vs Continued</a></li>
-            <li><a href="/spelling/persisted-vs-persisted" className="text-purple-700 hover:text-purple-900 underline">Persisted vs Persisted</a></li>
-            <li><a href="/spelling/endured-vs-endured" className="text-purple-700 hover:text-purple-900 underline">Endured vs Endured</a></li>
-            <li><a href="/spelling/lingered-vs-lingered" className="text-purple-700 hover:text-purple-900 underline">Lingered vs Lingered</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/past-tense" className="text-green-700 hover:text-green-900 underline">Past Tense</a></li>
-            <li><a href="/grammar/regular-verbs" className="text-green-700 hover:text-green-900 underline">Regular Verbs</a></li>
-            <li><a href="/grammar/verb-conjugation" className="text-green-700 hover:text-green-900 underline">Verb Conjugation</a></li>
-            <li><a href="/grammar/word-endings" className="text-green-700 hover:text-green-900 underline">Word Endings</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

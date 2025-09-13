@@ -144,43 +144,7 @@ export default function AuthorityVsAutorityPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/automation-vs-automatization" className="text-blue-700 hover:text-blue-900 underline">Automation vs Automatization</a></li>
-            <li><a href="/spelling/autumn-vs-autum" className="text-blue-700 hover:text-blue-900 underline">Autumn vs Autum</a></li>
-            <li><a href="/spelling/available-vs-availiable" className="text-blue-700 hover:text-blue-900 underline">Available vs Availiable</a></li>
-            <li><a href="/spelling/available-vs-availible" className="text-blue-700 hover:text-blue-900 underline">Available vs Availible</a></li>
-            <li><a href="/spelling/available-vs-avalable" className="text-blue-700 hover:text-blue-900 underline">Available vs Avalable</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/author-vs-autor" className="text-purple-700 hover:text-purple-900 underline">Author vs Autor</a></li>
-            <li><a href="/spelling/authoritative-vs-authorative" className="text-purple-700 hover:text-purple-900 underline">Authoritative vs Authorative</a></li>
-            <li><a href="/spelling/authoritative-vs-autoritative" className="text-purple-700 hover:text-purple-900 underline">Authoritative vs Autoritative</a></li>
-            <li><a href="/spelling/power-vs-powar" className="text-purple-700 hover:text-purple-900 underline">Power vs Powar</a></li>
-            <li><a href="/spelling/control-vs-controll" className="text-purple-700 hover:text-purple-900 underline">Control vs Controll</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/th-sound" className="text-green-700 hover:text-green-900 underline">Th Sound</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

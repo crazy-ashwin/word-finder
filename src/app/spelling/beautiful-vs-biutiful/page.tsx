@@ -151,43 +151,7 @@ export default function BeautifulVsBiutifulPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/beauty-vs-beuty" className="text-blue-700 hover:text-blue-900 underline">Beauty vs Beuty</a></li>
-            <li><a href="/spelling/beautify-vs-beutify" className="text-blue-700 hover:text-blue-900 underline">Beautify vs Beutify</a></li>
-            <li><a href="/spelling/beautifully-vs-beutifully" className="text-blue-700 hover:text-blue-900 underline">Beautifully vs Beutifully</a></li>
-            <li><a href="/spelling/beautician-vs-beutician" className="text-blue-700 hover:text-blue-900 underline">Beautician vs Beutician</a></li>
-            <li><a href="/spelling/beautification-vs-beutification" className="text-blue-700 hover:text-blue-900 underline">Beautification vs Beutification</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/attractive-vs-attractive" className="text-purple-700 hover:text-purple-900 underline">Attractive vs Attractive</a></li>
-            <li><a href="/spelling/gorgeous-vs-gorgeous" className="text-purple-700 hover:text-purple-900 underline">Gorgeous vs Gorgeous</a></li>
-            <li><a href="/spelling/stunning-vs-stunning" className="text-purple-700 hover:text-purple-900 underline">Stunning vs Stunning</a></li>
-            <li><a href="/spelling/elegant-vs-elegant" className="text-purple-700 hover:text-purple-900 underline">Elegant vs Elegant</a></li>
-            <li><a href="/spelling/magnificent-vs-magnificent" className="text-purple-700 hover:text-purple-900 underline">Magnificent vs Magnificent</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/french-words" className="text-green-700 hover:text-green-900 underline">French Words</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/old-french" className="text-green-700 hover:text-green-900 underline">Old French</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

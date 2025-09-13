@@ -136,43 +136,7 @@ export default function BecauseVsBecasePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/companies-vs-companys" className="text-blue-700 hover:text-blue-900 underline">Companies vs Companys</a></li>
-            <li><a href="/spelling/slipped-vs-sliped" className="text-blue-700 hover:text-blue-900 underline">Slipped vs Sliped</a></li>
-            <li><a href="/spelling/syphilis-vs-syphyllis" className="text-blue-700 hover:text-blue-900 underline">Syphilis vs Syphyllis</a></li>
-            <li><a href="/spelling/separate-vs-seperate" className="text-blue-700 hover:text-blue-900 underline">Separate vs Seperate</a></li>
-            <li><a href="/spelling/definitely-vs-definately" className="text-blue-700 hover:text-blue-900 underline">Definitely vs Definately</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/since-vs-sence" className="text-purple-700 hover:text-purple-900 underline">Since vs Sence</a></li>
-            <li><a href="/spelling/although-vs-allthough" className="text-purple-700 hover:text-purple-900 underline">Although vs Allthough</a></li>
-            <li><a href="/spelling/unless-vs-unlesss" className="text-purple-700 hover:text-purple-900 underline">Unless vs Unlesss</a></li>
-            <li><a href="/spelling/while-vs-whyle" className="text-purple-700 hover:text-purple-900 underline">While vs Whyle</a></li>
-            <li><a href="/spelling/until-vs-untill" className="text-purple-700 hover:text-purple-900 underline">Until vs Untill</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/conjunctions" className="text-green-700 hover:text-green-900 underline">Conjunctions</a></li>
-            <li><a href="/grammar/5th-grade-worksheets-parts-of-speech" className="text-green-700 hover:text-green-900 underline">Parts of Speech Worksheets</a></li>
-            <li><a href="/grammar/grammar-rules" className="text-green-700 hover:text-green-900 underline">Grammar Rules</a></li>
-            <li><a href="/grammar/3rd-grade-worksheets-helping-verbs" className="text-green-700 hover:text-green-900 underline">Helping Verbs Worksheets</a></li>
-            <li><a href="/grammar/4th-grade-worksheets-past-continuous-tense" className="text-green-700 hover:text-green-900 underline">Past Continuous Tense</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

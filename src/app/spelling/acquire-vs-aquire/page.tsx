@@ -136,43 +136,7 @@ export default function AcquireVsAquirePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/appreciate-vs-appreiciate" className="text-blue-700 hover:text-blue-900 underline">Appreciate vs Appreiciate</a></li>
-            <li><a href="/spelling/acquaintance-vs-aquantance" className="text-blue-700 hover:text-blue-900 underline">Acquaintance vs Acquantance</a></li>
-            <li><a href="/spelling/companies-vs-companys" className="text-blue-700 hover:text-blue-900 underline">Companies vs Companys</a></li>
-            <li><a href="/spelling/slipped-vs-sliped" className="text-blue-700 hover:text-blue-900 underline">Slipped vs Sliped</a></li>
-            <li><a href="/spelling/syphilis-vs-syphyllis" className="text-blue-700 hover:text-blue-900 underline">Syphilis vs Syphyllis</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/acquit-vs-aquit" className="text-purple-700 hover:text-purple-900 underline">Acquit vs Aquit</a></li>
-            <li><a href="/spelling/acquiesce-vs-aquiesce" className="text-purple-700 hover:text-purple-900 underline">Acquiesce vs Aquiesce</a></li>
-            <li><a href="/spelling/acquittal-vs-aquittal" className="text-purple-700 hover:text-purple-900 underline">Acquittal vs Aquittal</a></li>
-            <li><a href="/spelling/acquiescence-vs-aquiescence" className="text-purple-700 hover:text-purple-900 underline">Acquiescence vs Aquiescence</a></li>
-            <li><a href="/spelling/acquirement-vs-aquiremnt" className="text-purple-700 hover:text-purple-900 underline">Acquirement vs Aquiremnt</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/5th-grade-worksheets-parts-of-speech" className="text-green-700 hover:text-green-900 underline">Parts of Speech Worksheets</a></li>
-            <li><a href="/grammar/grammar-rules" className="text-green-700 hover:text-green-900 underline">Grammar Rules</a></li>
-            <li><a href="/grammar/3rd-grade-worksheets-helping-verbs" className="text-green-700 hover:text-green-900 underline">Helping Verbs Worksheets</a></li>
-            <li><a href="/grammar/action-verbs" className="text-green-700 hover:text-green-900 underline">Action Verbs</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

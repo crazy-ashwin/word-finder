@@ -304,43 +304,7 @@ export default function RenownedVsReknownedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/renowned-vs-reknown" className="text-blue-700 hover:text-blue-900 underline">Renowned vs Reknown</a></li>
-            <li><a href="/spelling/renovation-vs-rennovation" className="text-blue-700 hover:text-blue-900 underline">Renovation vs Rennovation</a></li>
-            <li><a href="/spelling/repair-vs-repare" className="text-blue-700 hover:text-blue-900 underline">Repair vs Repare</a></li>
-            <li><a href="/spelling/repaid-vs-repayed" className="text-blue-700 hover:text-blue-900 underline">Repaid vs Repayed</a></li>
-            <li><a href="/spelling/repeat-vs-repet" className="text-blue-700 hover:text-blue-900 underline">Repeat vs Repet</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/return-vs-retrun" className="text-purple-700 hover:text-purple-900 underline">Return vs Retrun</a></li>
-            <li><a href="/spelling/remember-vs-rember" className="text-purple-700 hover:text-purple-900 underline">Remember vs Rember</a></li>
-            <li><a href="/spelling/respect-vs-respet" className="text-purple-700 hover:text-purple-900 underline">Respect vs Respet</a></li>
-            <li><a href="/spelling/response-vs-responce" className="text-purple-700 hover:text-purple-900 underline">Response vs Responce</a></li>
-            <li><a href="/spelling/result-vs-reslut" className="text-purple-700 hover:text-purple-900 underline">Result vs Reslut</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/pronunciation" className="text-green-700 hover:text-green-900 underline">Pronunciation</a></li>
-            <li><a href="/grammar/latin-origins" className="text-green-700 hover:text-green-900 underline">Latin Origins</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

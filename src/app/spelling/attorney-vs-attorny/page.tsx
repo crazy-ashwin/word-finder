@@ -144,43 +144,7 @@ export default function AttorneyVsAttornyPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/lawyer-vs-lawer" className="text-blue-700 hover:text-blue-900 underline">Lawyer vs Lawer</a></li>
-            <li><a href="/spelling/counsel-vs-councel" className="text-blue-700 hover:text-blue-900 underline">Counsel vs Councel</a></li>
-            <li><a href="/spelling/solicitor-vs-solicitor" className="text-blue-700 hover:text-blue-900 underline">Solicitor vs Solicitor</a></li>
-            <li><a href="/spelling/barrister-vs-barister" className="text-blue-700 hover:text-blue-900 underline">Barrister vs Barister</a></li>
-            <li><a href="/spelling/advocate-vs-advocate" className="text-blue-700 hover:text-blue-900 underline">Advocate vs Advocate</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/legal-vs-legal" className="text-purple-700 hover:text-purple-900 underline">Legal vs Legal</a></li>
-            <li><a href="/spelling/court-vs-cort" className="text-purple-700 hover:text-purple-900 underline">Court vs Cort</a></li>
-            <li><a href="/spelling/judge-vs-judge" className="text-purple-700 hover:text-purple-900 underline">Judge vs Judge</a></li>
-            <li><a href="/spelling/justice-vs-justise" className="text-purple-700 hover:text-purple-900 underline">Justice vs Justise</a></li>
-            <li><a href="/spelling/law-vs-law" className="text-purple-700 hover:text-purple-900 underline">Law vs Law</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/ey-ending-words" className="text-green-700 hover:text-green-900 underline">-ey Ending Words</a></li>
-            <li><a href="/grammar/old-french" className="text-green-700 hover:text-green-900 underline">Old French</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

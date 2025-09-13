@@ -136,43 +136,7 @@ export default function AwkwardVsAckwardPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/uncomfortable-vs-uncomfortable" className="text-blue-700 hover:text-blue-900 underline">Uncomfortable vs Uncomfortable</a></li>
-            <li><a href="/spelling/clumsy-vs-clumsy" className="text-blue-700 hover:text-blue-900 underline">Clumsy vs Clumsy</a></li>
-            <li><a href="/spelling/embarrassing-vs-embarrassing" className="text-blue-700 hover:text-blue-900 underline">Embarrassing vs Embarrassing</a></li>
-            <li><a href="/spelling/difficult-vs-difficult" className="text-blue-700 hover:text-blue-900 underline">Difficult vs Difficult</a></li>
-            <li><a href="/spelling/inconvenient-vs-inconvenient" className="text-blue-700 hover:text-blue-900 underline">Inconvenient vs Inconvenient</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/strange-vs-strange" className="text-purple-700 hover:text-purple-900 underline">Strange vs Strange</a></li>
-            <li><a href="/spelling/weird-vs-weird" className="text-purple-700 hover:text-purple-900 underline">Weird vs Weird</a></li>
-            <li><a href="/spelling/odd-vs-odd" className="text-purple-700 hover:text-purple-900 underline">Odd vs Odd</a></li>
-            <li><a href="/spelling/unusual-vs-unusual" className="text-purple-700 hover:text-purple-900 underline">Unusual vs Unusual</a></li>
-            <li><a href="/spelling/peculiar-vs-peculiar" className="text-purple-700 hover:text-purple-900 underline">Peculiar vs Peculiar</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/ward-endings" className="text-green-700 hover:text-green-900 underline">Ward Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -206,43 +206,7 @@ export default function AttractiveVsAtractivePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/beautiful-vs-beautiful" className="text-blue-700 hover:text-blue-900 underline">Beautiful vs Beautiful</a></li>
-            <li><a href="/spelling/handsome-vs-handsome" className="text-blue-700 hover:text-blue-900 underline">Handsome vs Handsome</a></li>
-            <li><a href="/spelling/pleasing-vs-pleasing" className="text-blue-700 hover:text-blue-900 underline">Pleasing vs Pleasing</a></li>
-            <li><a href="/spelling/desirable-vs-desirable" className="text-blue-700 hover:text-blue-900 underline">Desirable vs Desirable</a></li>
-            <li><a href="/spelling/appealing-vs-appealing" className="text-blue-700 hover:text-blue-900 underline">Appealing vs Appealing</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/attract-vs-atract" className="text-purple-700 hover:text-purple-900 underline">Attract vs Atract</a></li>
-            <li><a href="/spelling/attraction-vs-atraction" className="text-purple-700 hover:text-purple-900 underline">Attraction vs Atraction</a></li>
-            <li><a href="/spelling/charming-vs-charming" className="text-purple-700 hover:text-purple-900 underline">Charming vs Charming</a></li>
-            <li><a href="/spelling/enticing-vs-enticing" className="text-purple-700 hover:text-purple-900 underline">Enticing vs Enticing</a></li>
-            <li><a href="/spelling/alluring-vs-alluring" className="text-purple-700 hover:text-purple-900 underline">Alluring vs Alluring</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/ive-endings" className="text-green-700 hover:text-green-900 underline">Ive Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

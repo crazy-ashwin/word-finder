@@ -144,43 +144,7 @@ export default function RegisterVsRegesterPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/regularly-vs-regulary" className="text-blue-700 hover:text-blue-900 underline">Regularly vs Regulary</a></li>
-            <li><a href="/spelling/regularly-vs-regularily" className="text-blue-700 hover:text-blue-900 underline">Regularly vs Regularily</a></li>
-            <li><a href="/spelling/regretted-vs-regreted" className="text-blue-700 hover:text-blue-900 underline">Regretted vs Regreted</a></li>
-            <li><a href="/spelling/registry-vs-registery" className="text-blue-700 hover:text-blue-900 underline">Registry vs Registery</a></li>
-            <li><a href="/spelling/registration-vs-registeration" className="text-blue-700 hover:text-blue-900 underline">Registration vs Registeration</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/remember-vs-remembr" className="text-purple-700 hover:text-purple-900 underline">Remember vs Remembr</a></li>
-            <li><a href="/spelling/consider-vs-considr" className="text-purple-700 hover:text-purple-900 underline">Consider vs Considr</a></li>
-            <li><a href="/spelling/deliver-vs-delivr" className="text-purple-700 hover:text-purple-900 underline">Deliver vs Delivr</a></li>
-            <li><a href="/spelling/cover-vs-covr" className="text-purple-700 hover:text-purple-900 underline">Cover vs Covr</a></li>
-            <li><a href="/spelling/enter-vs-entr" className="text-purple-700 hover:text-purple-900 underline">Enter vs Entr</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/er-suffix" className="text-green-700 hover:text-green-900 underline">-er Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -325,43 +325,7 @@ export default function RecognizeVsReconizePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/recommendation-vs-reccomendation" className="text-blue-700 hover:text-blue-900 underline">Recommendation vs Reccomendation</a></li>
-            <li><a href="/spelling/recommend-vs-recommand" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Recommand</a></li>
-            <li><a href="/spelling/recommend-vs-recomend" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Recomend</a></li>
-            <li><a href="/spelling/recommend-vs-reccommend" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Reccommend</a></li>
-            <li><a href="/spelling/recollection-vs-recolection" className="text-blue-700 hover:text-blue-900 underline">Recollection vs Recolection</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/cognition-vs-cogniton" className="text-purple-700 hover:text-purple-900 underline">Cognition vs Cogniton</a></li>
-            <li><a href="/spelling/identification-vs-identifiation" className="text-purple-700 hover:text-purple-900 underline">Identification vs Identifiation</a></li>
-            <li><a href="/spelling/acknowledge-vs-acknowlege" className="text-purple-700 hover:text-purple-900 underline">Acknowledge vs Acknowlege</a></li>
-            <li><a href="/spelling/realize-vs-realise" className="text-purple-700 hover:text-purple-900 underline">Realize vs Realise</a></li>
-            <li><a href="/spelling/notice-vs-notise" className="text-purple-700 hover:text-purple-900 underline">Notice vs Notise</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/prefixes" className="text-green-700 hover:text-green-900 underline">Prefixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/re-prefix" className="text-green-700 hover:text-green-900 underline">Re- Prefix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

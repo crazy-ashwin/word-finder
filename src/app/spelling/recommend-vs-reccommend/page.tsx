@@ -325,43 +325,7 @@ export default function RecommendVsReccommendPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/recommendation-vs-reccomendation" className="text-blue-700 hover:text-blue-900 underline">Recommendation vs Reccomendation</a></li>
-            <li><a href="/spelling/recognize-vs-reconize" className="text-blue-700 hover:text-blue-900 underline">Recognize vs Reconize</a></li>
-            <li><a href="/spelling/recommend-vs-recomend" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Recomend</a></li>
-            <li><a href="/spelling/recommend-vs-recommand" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Recommand</a></li>
-            <li><a href="/spelling/recollection-vs-recolection" className="text-blue-700 hover:text-blue-900 underline">Recollection vs Recolection</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/commend-vs-comend" className="text-purple-700 hover:text-purple-900 underline">Commend vs Comend</a></li>
-            <li><a href="/spelling/endorse-vs-endorse" className="text-purple-700 hover:text-purple-900 underline">Endorse vs Endorse</a></li>
-            <li><a href="/spelling/suggest-vs-sugest" className="text-purple-700 hover:text-purple-900 underline">Suggest vs Sugest</a></li>
-            <li><a href="/spelling/advise-vs-advice" className="text-purple-700 hover:text-purple-900 underline">Advise vs Advice</a></li>
-            <li><a href="/spelling/propose-vs-propose" className="text-purple-700 hover:text-purple-900 underline">Propose vs Propose</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/prefixes" className="text-green-700 hover:text-green-900 underline">Prefixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/re-prefix" className="text-green-700 hover:text-green-900 underline">Re- Prefix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

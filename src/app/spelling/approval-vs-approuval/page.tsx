@@ -150,43 +150,7 @@ export default function ApprovalVsApprouvalPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/approve-vs-approuve" className="text-blue-700 hover:text-blue-900 underline">Approve vs Approuve</a></li>
-            <li><a href="/spelling/approved-vs-approuved" className="text-blue-700 hover:text-blue-900 underline">Approved vs Approuved</a></li>
-            <li><a href="/spelling/approving-vs-approuving" className="text-blue-700 hover:text-blue-900 underline">Approving vs Approuving</a></li>
-            <li><a href="/spelling/approves-vs-approuves" className="text-blue-700 hover:text-blue-900 underline">Approves vs Approuves</a></li>
-            <li><a href="/spelling/approver-vs-approuver" className="text-blue-700 hover:text-blue-900 underline">Approver vs Approuver</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/permission-vs-permission" className="text-purple-700 hover:text-purple-900 underline">Permission vs Permission</a></li>
-            <li><a href="/spelling/consent-vs-consent" className="text-purple-700 hover:text-purple-900 underline">Consent vs Consent</a></li>
-            <li><a href="/spelling/authorization-vs-authorization" className="text-purple-700 hover:text-purple-900 underline">Authorization vs Authorization</a></li>
-            <li><a href="/spelling/endorsement-vs-endorsement" className="text-purple-700 hover:text-purple-900 underline">Endorsement vs Endorsement</a></li>
-            <li><a href="/spelling/sanction-vs-sanction" className="text-purple-700 hover:text-purple-900 underline">Sanction vs Sanction</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/val-suffix" className="text-green-700 hover:text-green-900 underline">-val Suffix</a></li>
-            <li><a href="/grammar/old-french" className="text-green-700 hover:text-green-900 underline">Old French</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

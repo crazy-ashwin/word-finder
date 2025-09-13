@@ -325,43 +325,7 @@ export default function RecuperateVsRecouperatePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/redundant-vs-redundent" className="text-blue-700 hover:text-blue-900 underline">Redundant vs Redundent</a></li>
-            <li><a href="/spelling/reduce-vs-reduse" className="text-blue-700 hover:text-blue-900 underline">Reduce vs Reduse</a></li>
-            <li><a href="/spelling/recurrence-vs-reocurrence" className="text-blue-700 hover:text-blue-900 underline">Recurrence vs Reocurrence</a></li>
-            <li><a href="/spelling/recurrence-vs-recurrance" className="text-blue-700 hover:text-blue-900 underline">Recurrence vs Recurrance</a></li>
-            <li><a href="/spelling/recruited-vs-recruted" className="text-blue-700 hover:text-blue-900 underline">Recruited vs Recruted</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/cooperate-vs-coouperate" className="text-purple-700 hover:text-purple-900 underline">Cooperate vs Coouperate</a></li>
-            <li><a href="/spelling/operate-vs-ouperate" className="text-purple-700 hover:text-purple-900 underline">Operate vs Ouperate</a></li>
-            <li><a href="/spelling/separate-vs-separate" className="text-purple-700 hover:text-purple-900 underline">Separate vs Seprate</a></li>
-            <li><a href="/spelling/celebrate-vs-celebrate" className="text-purple-700 hover:text-purple-900 underline">Celebrate vs Celebreate</a></li>
-            <li><a href="/spelling/elaborate-vs-elaborate" className="text-purple-700 hover:text-purple-900 underline">Elaborate vs Elabrate</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/ate-suffix" className="text-green-700 hover:text-green-900 underline">-ate Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

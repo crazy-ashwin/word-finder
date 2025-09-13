@@ -134,43 +134,7 @@ export default function ViewVsVeiwPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/veiw-vs-view" className="text-blue-700 hover:text-blue-900 underline">Veiw vs View</a></li>
-            <li><a href="/spelling/recieve-vs-receive" className="text-blue-700 hover:text-blue-900 underline">Recieve vs Receive</a></li>
-            <li><a href="/spelling/beleive-vs-believe" className="text-blue-700 hover:text-blue-900 underline">Beleive vs Believe</a></li>
-            <li><a href="/spelling/achieve-vs-acheive" className="text-blue-700 hover:text-blue-900 underline">Achieve vs Acheive</a></li>
-            <li><a href="/spelling/relieve-vs-releive" className="text-blue-700 hover:text-blue-900 underline">Relieve vs Releive</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/see-vs-see" className="text-purple-700 hover:text-purple-900 underline">See vs See</a></li>
-            <li><a href="/spelling/look-vs-look" className="text-purple-700 hover:text-purple-900 underline">Look vs Look</a></li>
-            <li><a href="/spelling/observe-vs-observe" className="text-purple-700 hover:text-purple-900 underline">Observe vs Observe</a></li>
-            <li><a href="/spelling/watch-vs-watch" className="text-purple-700 hover:text-purple-900 underline">Watch vs Watch</a></li>
-            <li><a href="/spelling/notice-vs-notice" className="text-purple-700 hover:text-purple-900 underline">Notice vs Notice</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/ie-ei-rules" className="text-green-700 hover:text-green-900 underline">IE vs EI Rules</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

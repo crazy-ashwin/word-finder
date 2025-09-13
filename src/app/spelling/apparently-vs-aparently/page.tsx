@@ -149,43 +149,7 @@ export default function ApparentlyVsAparentlyPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/apparent-vs-aparent" className="text-blue-700 hover:text-blue-900 underline">Apparent vs Aparent</a></li>
-            <li><a href="/spelling/apparently-vs-aparently" className="text-blue-700 hover:text-blue-900 underline">Apparently vs Aparently</a></li>
-            <li><a href="/spelling/apparentness-vs-aparentness" className="text-blue-700 hover:text-blue-900 underline">Apparentness vs Aparentness</a></li>
-            <li><a href="/spelling/apparent-vs-aparent" className="text-blue-700 hover:text-blue-900 underline">Apparent vs Aparent</a></li>
-            <li><a href="/spelling/apparently-vs-aparently" className="text-blue-700 hover:text-blue-900 underline">Apparently vs Aparently</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/seemingly-vs-seemingly" className="text-purple-700 hover:text-purple-900 underline">Seemingly vs Seemingly</a></li>
-            <li><a href="/spelling/evidently-vs-evidently" className="text-purple-700 hover:text-purple-900 underline">Evidently vs Evidently</a></li>
-            <li><a href="/spelling/ostensibly-vs-ostensibly" className="text-purple-700 hover:text-purple-900 underline">Ostensibly vs Ostensibly</a></li>
-            <li><a href="/spelling/supposedly-vs-supposedly" className="text-purple-700 hover:text-purple-900 underline">Supposedly vs Supposedly</a></li>
-            <li><a href="/spelling/allegedly-vs-allegedly" className="text-purple-700 hover:text-purple-900 underline">Allegedly vs Allegedly</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/ly-suffix" className="text-green-700 hover:text-green-900 underline">-ly Suffix</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

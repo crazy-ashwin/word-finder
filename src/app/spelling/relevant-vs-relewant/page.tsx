@@ -119,43 +119,7 @@ export default function RelevantVsRelewantPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/relieved-vs-releaved" className="text-blue-700 hover:text-blue-900 underline">Relieved vs Releaved</a></li>
-            <li><a href="/spelling/relieve-vs-releave" className="text-blue-700 hover:text-blue-900 underline">Relieve vs Releave</a></li>
-            <li><a href="/spelling/relief-vs-releaf" className="text-blue-700 hover:text-blue-900 underline">Relief vs Releaf</a></li>
-            <li><a href="/spelling/reliable-vs-relieable" className="text-blue-700 hover:text-blue-900 underline">Reliable vs Relieable</a></li>
-            <li><a href="/spelling/reliable-vs-relible" className="text-blue-700 hover:text-blue-900 underline">Reliable vs Relible</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/important-vs-importent" className="text-purple-700 hover:text-purple-900 underline">Important vs Importent</a></li>
-            <li><a href="/spelling/significant-vs-significent" className="text-purple-700 hover:text-purple-900 underline">Significant vs Significent</a></li>
-            <li><a href="/spelling/brilliant-vs-brillent" className="text-purple-700 hover:text-purple-900 underline">Brilliant vs Brillent</a></li>
-            <li><a href="/spelling/elegant-vs-elegent" className="text-purple-700 hover:text-purple-900 underline">Elegant vs Elegent</a></li>
-            <li><a href="/spelling/confident-vs-confidant" className="text-purple-700 hover:text-purple-900 underline">Confident vs Confidant</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/ant-suffix" className="text-green-700 hover:text-green-900 underline">-ant Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

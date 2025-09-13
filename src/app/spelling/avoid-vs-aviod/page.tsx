@@ -147,43 +147,7 @@ export default function AvoidVsAviodPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/awesome-vs-awsome" className="text-blue-700 hover:text-blue-900 underline">Awesome vs Awsome</a></li>
-            <li><a href="/spelling/awful-vs-aweful" className="text-blue-700 hover:text-blue-900 underline">Awful vs Aweful</a></li>
-            <li><a href="/spelling/awful-vs-awfull" className="text-blue-700 hover:text-blue-900 underline">Awful vs Awfull</a></li>
-            <li><a href="/spelling/awkward-vs-ackward" className="text-blue-700 hover:text-blue-900 underline">Awkward vs Ackward</a></li>
-            <li><a href="/spelling/awkward-vs-akward" className="text-blue-700 hover:text-blue-900 underline">Awkward vs Akward</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/evade-vs-evade" className="text-purple-700 hover:text-purple-900 underline">Evade vs Evade</a></li>
-            <li><a href="/spelling/escape-vs-escape" className="text-purple-700 hover:text-purple-900 underline">Escape vs Escape</a></li>
-            <li><a href="/spelling/shun-vs-shun" className="text-purple-700 hover:text-purple-900 underline">Shun vs Shun</a></li>
-            <li><a href="/spelling/elude-vs-elude" className="text-purple-700 hover:text-purple-900 underline">Elude vs Elude</a></li>
-            <li><a href="/spelling/prevent-vs-prevent" className="text-purple-700 hover:text-purple-900 underline">Prevent vs Prevent</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/old-french" className="text-green-700 hover:text-green-900 underline">Old French</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/vowel-order" className="text-green-700 hover:text-green-900 underline">Vowel Order</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

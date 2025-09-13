@@ -297,43 +297,7 @@ export default function RestraintVsRestrantPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/restaurant-vs-restarant" className="text-blue-700 hover:text-blue-900 underline">Restaurant vs Restarant</a></li>
-            <li><a href="/spelling/responsible-vs-responssible" className="text-blue-700 hover:text-blue-900 underline">Responsible vs Responssible</a></li>
-            <li><a href="/spelling/responsible-vs-responsable" className="text-blue-700 hover:text-blue-900 underline">Responsible vs Responsable</a></li>
-            <li><a href="/spelling/responsible-vs-responcible" className="text-blue-700 hover:text-blue-900 underline">Responsible vs Responcible</a></li>
-            <li><a href="/spelling/retention-vs-retension" className="text-blue-700 hover:text-blue-900 underline">Retention vs Retension</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/constraint-vs-constraint" className="text-purple-700 hover:text-purple-900 underline">Constraint vs Constraint</a></li>
-            <li><a href="/spelling/restriction-vs-restriction" className="text-purple-700 hover:text-purple-900 underline">Restriction vs Restriction</a></li>
-            <li><a href="/spelling/limitation-vs-limitation" className="text-purple-700 hover:text-purple-900 underline">Limitation vs Limitation</a></li>
-            <li><a href="/spelling/control-vs-control" className="text-purple-700 hover:text-purple-900 underline">Control vs Control</a></li>
-            <li><a href="/spelling/discipline-vs-discipline" className="text-purple-700 hover:text-purple-900 underline">Discipline vs Discipline</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/behavioral-english" className="text-green-700 hover:text-green-900 underline">Behavioral English</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/self-control" className="text-green-700 hover:text-green-900 underline">Self-Control Terms</a></li>
-            <li><a href="/grammar/psychological-terms" className="text-green-700 hover:text-green-900 underline">Psychological Terms</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

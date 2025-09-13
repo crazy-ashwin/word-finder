@@ -304,43 +304,7 @@ export default function RemunerationVsRenumerationPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/remittance-vs-remitance" className="text-blue-700 hover:text-blue-900 underline">Remittance vs Remitance</a></li>
-            <li><a href="/spelling/reminisce-vs-reminence" className="text-blue-700 hover:text-blue-900 underline">Reminisce vs Reminence</a></li>
-            <li><a href="/spelling/remembrance-vs-remembrence" className="text-blue-700 hover:text-blue-900 underline">Remembrance vs Remembrence</a></li>
-            <li><a href="/spelling/remember-vs-rimember" className="text-blue-700 hover:text-blue-900 underline">Remember vs Rimember</a></li>
-            <li><a href="/spelling/remember-vs-remeber" className="text-blue-700 hover:text-blue-900 underline">Remember vs Remeber</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/payment-vs-paymant" className="text-purple-700 hover:text-purple-900 underline">Payment vs Paymant</a></li>
-            <li><a href="/spelling/compensation-vs-compenssation" className="text-purple-700 hover:text-purple-900 underline">Compensation vs Compenssation</a></li>
-            <li><a href="/spelling/salary-vs-sallary" className="text-purple-700 hover:text-purple-900 underline">Salary vs Sallary</a></li>
-            <li><a href="/spelling/wages-vs-wagess" className="text-purple-700 hover:text-purple-900 underline">Wages vs Wagess</a></li>
-            <li><a href="/spelling/earnings-vs-earnings" className="text-purple-700 hover:text-purple-900 underline">Earnings vs Earnings</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/business-terms" className="text-green-700 hover:text-green-900 underline">Business Terms</a></li>
-            <li><a href="/grammar/latin-origins" className="text-green-700 hover:text-green-900 underline">Latin Origins</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/formal-vocabulary" className="text-green-700 hover:text-green-900 underline">Formal Vocabulary</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

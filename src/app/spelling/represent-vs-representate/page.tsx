@@ -297,43 +297,7 @@ export default function RepresentVsRepresentatePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/rescue-vs-rescure" className="text-blue-700 hover:text-blue-900 underline">Rescue vs Rescure</a></li>
-            <li><a href="/spelling/requisition-vs-requition" className="text-blue-700 hover:text-blue-900 underline">Requisition vs Requition</a></li>
-            <li><a href="/spelling/requisition-vs-requistion" className="text-blue-700 hover:text-blue-900 underline">Requisition vs Requistion</a></li>
-            <li><a href="/spelling/representative-vs-representive" className="text-blue-700 hover:text-blue-900 underline">Representative vs Representive</a></li>
-            <li><a href="/spelling/represent-vs-repersent" className="text-blue-700 hover:text-blue-900 underline">Represent vs Repersent</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/present-vs-present" className="text-purple-700 hover:text-purple-900 underline">Present vs Present</a></li>
-            <li><a href="/spelling/absent-vs-absent" className="text-purple-700 hover:text-purple-900 underline">Absent vs Absent</a></li>
-            <li><a href="/spelling/consent-vs-consent" className="text-purple-700 hover:text-purple-900 underline">Consent vs Consent</a></li>
-            <li><a href="/spelling/content-vs-content" className="text-purple-700 hover:text-purple-900 underline">Content vs Content</a></li>
-            <li><a href="/spelling/event-vs-event" className="text-purple-700 hover:text-purple-900 underline">Event vs Event</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/action-verbs" className="text-green-700 hover:text-green-900 underline">Action Verbs</a></li>
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/abstract-nouns" className="text-green-700 hover:text-green-900 underline">Abstract Nouns</a></li>
-            <li><a href="/grammar/active-vs-passive-voice" className="text-green-700 hover:text-green-900 underline">Active vs Passive Voice</a></li>
-            <li><a href="/grammar/3rd-grade-worksheets-helping-verbs" className="text-green-700 hover:text-green-900 underline">Helping Verbs Worksheets</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

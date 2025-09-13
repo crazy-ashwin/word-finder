@@ -147,43 +147,7 @@ export default function AverredVsAveredPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/aviation-vs-avation" className="text-blue-700 hover:text-blue-900 underline">Aviation vs Avation</a></li>
-            <li><a href="/spelling/avoid-vs-aviod" className="text-blue-700 hover:text-blue-900 underline">Avoid vs Aviod</a></li>
-            <li><a href="/spelling/awesome-vs-awsome" className="text-blue-700 hover:text-blue-900 underline">Awesome vs Awsome</a></li>
-            <li><a href="/spelling/awful-vs-aweful" className="text-blue-700 hover:text-blue-900 underline">Awful vs Aweful</a></li>
-            <li><a href="/spelling/awful-vs-awfull" className="text-blue-700 hover:text-blue-900 underline">Awful vs Awfull</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/asserted-vs-asserted" className="text-purple-700 hover:text-purple-900 underline">Asserted vs Asserted</a></li>
-            <li><a href="/spelling/declared-vs-declared" className="text-purple-700 hover:text-purple-900 underline">Declared vs Declared</a></li>
-            <li><a href="/spelling/stated-vs-stated" className="text-purple-700 hover:text-purple-900 underline">Stated vs Stated</a></li>
-            <li><a href="/spelling/affirmed-vs-affirmed" className="text-purple-700 hover:text-purple-900 underline">Affirmed vs Affirmed</a></li>
-            <li><a href="/spelling/maintained-vs-maintained" className="text-purple-700 hover:text-purple-900 underline">Maintained vs Maintained</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/past-tense" className="text-green-700 hover:text-green-900 underline">Past Tense</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/latin-roots" className="text-green-700 hover:text-green-900 underline">Latin Roots</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

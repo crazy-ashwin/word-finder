@@ -151,43 +151,7 @@ export default function BoxesVsBoxsPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/taxes-vs-taxs" className="text-blue-700 hover:text-blue-900 underline">Taxes vs Taxs</a></li>
-            <li><a href="/spelling/faxes-vs-faxs" className="text-blue-700 hover:text-blue-900 underline">Faxes vs Faxs</a></li>
-            <li><a href="/spelling/foxes-vs-foxs" className="text-blue-700 hover:text-blue-900 underline">Foxes vs Foxs</a></li>
-            <li><a href="/spelling/mixes-vs-mixs" className="text-blue-700 hover:text-blue-900 underline">Mixes vs Mixs</a></li>
-            <li><a href="/spelling/fixes-vs-fixs" className="text-blue-700 hover:text-blue-900 underline">Fixes vs Fixs</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/containers-vs-containers" className="text-purple-700 hover:text-purple-900 underline">Containers vs Containers</a></li>
-            <li><a href="/spelling/packages-vs-packages" className="text-purple-700 hover:text-purple-900 underline">Packages vs Packages</a></li>
-            <li><a href="/spelling/cartons-vs-cartons" className="text-purple-700 hover:text-purple-900 underline">Cartons vs Cartons</a></li>
-            <li><a href="/spelling/crates-vs-crates" className="text-purple-700 hover:text-purple-900 underline">Crates vs Crates</a></li>
-            <li><a href="/spelling/cases-vs-cases" className="text-purple-700 hover:text-purple-900 underline">Cases vs Cases</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/plurals" className="text-green-700 hover:text-green-900 underline">Plurals Guide</a></li>
-            <li><a href="/grammar/x-ending-words" className="text-green-700 hover:text-green-900 underline">X-Ending Words</a></li>
-            <li><a href="/grammar/es-suffix" className="text-green-700 hover:text-green-900 underline">-es Suffix</a></li>
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

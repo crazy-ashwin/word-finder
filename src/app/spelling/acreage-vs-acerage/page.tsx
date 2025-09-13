@@ -136,43 +136,7 @@ export default function AcreageVsAceragePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/against-vs-against" className="text-blue-700 hover:text-blue-900 underline">Against vs Against</a></li>
-            <li><a href="/spelling/agency-vs-agency" className="text-blue-700 hover:text-blue-900 underline">Agency vs Agency</a></li>
-            <li><a href="/spelling/agenda-vs-agenda" className="text-blue-700 hover:text-blue-900 underline">Agenda vs Agenda</a></li>
-            <li><a href="/spelling/agent-vs-agent" className="text-blue-700 hover:text-blue-900 underline">Agent vs Agent</a></li>
-            <li><a href="/spelling/aggressive-vs-agressive" className="text-blue-700 hover:text-blue-900 underline">Aggressive vs Agressive</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/land-vs-land" className="text-purple-700 hover:text-purple-900 underline">Land vs Land</a></li>
-            <li><a href="/spelling/property-vs-property" className="text-purple-700 hover:text-purple-900 underline">Property vs Property</a></li>
-            <li><a href="/spelling/area-vs-area" className="text-purple-700 hover:text-purple-900 underline">Area vs Area</a></li>
-            <li><a href="/spelling/measurement-vs-measurement" className="text-purple-700 hover:text-purple-900 underline">Measurement vs Measurement</a></li>
-            <li><a href="/spelling/real-estate-vs-real-estate" className="text-purple-700 hover:text-purple-900 underline">Real Estate vs Real Estate</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

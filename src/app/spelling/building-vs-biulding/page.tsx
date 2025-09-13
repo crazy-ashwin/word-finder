@@ -151,43 +151,7 @@ export default function BuildingVsBiuldingPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/built-vs-builded" className="text-blue-700 hover:text-blue-900 underline">Built vs Builded</a></li>
-            <li><a href="/spelling/builder-vs-builder" className="text-blue-700 hover:text-blue-900 underline">Builder vs Builder</a></li>
-            <li><a href="/spelling/construction-vs-construction" className="text-blue-700 hover:text-blue-900 underline">Construction vs Construction</a></li>
-            <li><a href="/spelling/architecture-vs-architecture" className="text-blue-700 hover:text-blue-900 underline">Architecture vs Architecture</a></li>
-            <li><a href="/spelling/structural-vs-structural" className="text-blue-700 hover:text-blue-900 underline">Structural vs Structural</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/structure-vs-structure" className="text-purple-700 hover:text-purple-900 underline">Structure vs Structure</a></li>
-            <li><a href="/spelling/edifice-vs-edifice" className="text-purple-700 hover:text-purple-900 underline">Edifice vs Edifice</a></li>
-            <li><a href="/spelling/premises-vs-premises" className="text-purple-700 hover:text-purple-900 underline">Premises vs Premises</a></li>
-            <li><a href="/spelling/facility-vs-facility" className="text-purple-700 hover:text-purple-900 underline">Facility vs Facility</a></li>
-            <li><a href="/spelling/complex-vs-complex" className="text-purple-700 hover:text-purple-900 underline">Complex vs Complex</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/ui-vs-iu" className="text-green-700 hover:text-green-900 underline">UI vs IU Rules</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/participles" className="text-green-700 hover:text-green-900 underline">Participles</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

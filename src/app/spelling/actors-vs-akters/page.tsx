@@ -120,43 +120,7 @@ export default function ActorsVsAktersPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/army-vs-army" className="text-blue-700 hover:text-blue-900 underline">Army vs Army</a></li>
-            <li><a href="/spelling/around-vs-around" className="text-blue-700 hover:text-blue-900 underline">Around vs Around</a></li>
-            <li><a href="/spelling/arrive-vs-arrive" className="text-blue-700 hover:text-blue-900 underline">Arrive vs Arrive</a></li>
-            <li><a href="/spelling/art-vs-art" className="text-blue-700 hover:text-blue-900 underline">Art vs Art</a></li>
-            <li><a href="/spelling/article-vs-article" className="text-blue-700 hover:text-blue-900 underline">Article vs Article</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/performers-vs-performers" className="text-purple-700 hover:text-purple-900 underline">Performers vs Performers</a></li>
-            <li><a href="/spelling/artists-vs-artists" className="text-purple-700 hover:text-purple-900 underline">Artists vs Artists</a></li>
-            <li><a href="/spelling/entertainers-vs-entertainers" className="text-purple-700 hover:text-purple-900 underline">Entertainers vs Entertainers</a></li>
-            <li><a href="/spelling/thespians-vs-thespians" className="text-purple-700 hover:text-purple-900 underline">Thespians vs Thespians</a></li>
-            <li><a href="/spelling/actresses-vs-actresses" className="text-purple-700 hover:text-purple-900 underline">Actresses vs Actresses</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/plural-forms" className="text-green-700 hover:text-green-900 underline">Plural Forms</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

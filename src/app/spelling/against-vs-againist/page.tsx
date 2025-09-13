@@ -129,43 +129,7 @@ export default function AgainstVsAgainistPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/card-vs-card" className="text-blue-700 hover:text-blue-900 underline">Card vs Card</a></li>
-            <li><a href="/spelling/care-vs-care" className="text-blue-700 hover:text-blue-900 underline">Care vs Care</a></li>
-            <li><a href="/spelling/carry-vs-carry" className="text-blue-700 hover:text-blue-900 underline">Carry vs Carry</a></li>
-            <li><a href="/spelling/case-vs-case" className="text-blue-700 hover:text-blue-900 underline">Case vs Case</a></li>
-            <li><a href="/spelling/catch-vs-catch" className="text-blue-700 hover:text-blue-900 underline">Catch vs Catch</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/opposed-vs-opposed" className="text-purple-700 hover:text-purple-900 underline">Opposed vs Opposed</a></li>
-            <li><a href="/spelling/contrary-vs-contrary" className="text-purple-700 hover:text-purple-900 underline">Contrary vs Contrary</a></li>
-            <li><a href="/spelling/versus-vs-versus" className="text-purple-700 hover:text-purple-900 underline">Versus vs Versus</a></li>
-            <li><a href="/spelling/opposing-vs-opposing" className="text-purple-700 hover:text-purple-900 underline">Opposing vs Opposing</a></li>
-            <li><a href="/spelling/resisting-vs-resisting" className="text-purple-700 hover:text-purple-900 underline">Resisting vs Resisting</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/prepositions" className="text-green-700 hover:text-green-900 underline">Prepositions Guide</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   );
 } 

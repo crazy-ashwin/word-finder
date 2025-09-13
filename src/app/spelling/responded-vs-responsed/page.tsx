@@ -297,43 +297,7 @@ export default function RespondedVsResponsedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/separate-vs-seperate" className="text-blue-700 hover:text-blue-900 underline">Separate vs Seperate</a></li>
-            <li><a href="/spelling/definitely-vs-definately" className="text-blue-700 hover:text-blue-900 underline">Definitely vs Definately</a></li>
-            <li><a href="/spelling/occurred-vs-occured" className="text-blue-700 hover:text-blue-900 underline">Occurred vs Occured</a></li>
-            <li><a href="/spelling/privilege-vs-priviledge" className="text-blue-700 hover:text-blue-900 underline">Privilege vs Priviledge</a></li>
-            <li><a href="/spelling/embarrass-vs-embarass" className="text-blue-700 hover:text-blue-900 underline">Embarrass vs Embarass</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/walked-vs-walkt" className="text-purple-700 hover:text-purple-900 underline">Walked vs Walkt</a></li>
-            <li><a href="/spelling/helped-vs-helpt" className="text-purple-700 hover:text-purple-900 underline">Helped vs Helpt</a></li>
-            <li><a href="/spelling/worked-vs-workt" className="text-purple-700 hover:text-purple-900 underline">Worked vs Workt</a></li>
-            <li><a href="/spelling/asked-vs-askt" className="text-purple-700 hover:text-purple-900 underline">Asked vs Askt</a></li>
-            <li><a href="/spelling/talked-vs-talkt" className="text-purple-700 hover:text-purple-900 underline">Talked vs Talkt</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs</a></li>
-            <li><a href="/grammar/past-tense" className="text-green-700 hover:text-green-900 underline">Past Tense</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/english-grammar" className="text-green-700 hover:text-green-900 underline">English Grammar</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -171,43 +171,7 @@ export default function ActualVsActuallPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/assume-vs-assume" className="text-blue-700 hover:text-blue-900 underline">Assume vs Assume</a></li>
-            <li><a href="/spelling/attack-vs-attack" className="text-blue-700 hover:text-blue-900 underline">Attack vs Attack</a></li>
-            <li><a href="/spelling/attempt-vs-attempt" className="text-blue-700 hover:text-blue-900 underline">Attempt vs Attempt</a></li>
-            <li><a href="/spelling/attend-vs-attend" className="text-blue-700 hover:text-blue-900 underline">Attend vs Attend</a></li>
-            <li><a href="/spelling/attention-vs-attention" className="text-blue-700 hover:text-blue-900 underline">Attention vs Attention</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/real-vs-real" className="text-purple-700 hover:text-purple-900 underline">Real vs Real</a></li>
-            <li><a href="/spelling/genuine-vs-genuine" className="text-purple-700 hover:text-purple-900 underline">Genuine vs Genuine</a></li>
-            <li><a href="/spelling/true-vs-true" className="text-purple-700 hover:text-purple-900 underline">True vs True</a></li>
-            <li><a href="/spelling/authentic-vs-authentic" className="text-purple-700 hover:text-purple-900 underline">Authentic vs Authentic</a></li>
-            <li><a href="/spelling/factual-vs-factual" className="text-purple-700 hover:text-purple-900 underline">Factual vs Factual</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/single-vs-double-consonants" className="text-green-700 hover:text-green-900 underline">Single vs Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

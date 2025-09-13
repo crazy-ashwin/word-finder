@@ -139,43 +139,7 @@ export default function BeachesVsBeachsPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/end-vs-end" className="text-blue-700 hover:text-blue-900 underline">End vs End</a></li>
-            <li><a href="/spelling/enemy-vs-enemy" className="text-blue-700 hover:text-blue-900 underline">Enemy vs Enemy</a></li>
-            <li><a href="/spelling/enjoy-vs-enjoy" className="text-blue-700 hover:text-blue-900 underline">Enjoy vs Enjoy</a></li>
-            <li><a href="/spelling/enough-vs-enough" className="text-blue-700 hover:text-blue-900 underline">Enough vs Enough</a></li>
-            <li><a href="/spelling/enter-vs-enter" className="text-blue-700 hover:text-blue-900 underline">Enter vs Enter</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/shores-vs-shores" className="text-purple-700 hover:text-purple-900 underline">Shores vs Shores</a></li>
-            <li><a href="/spelling/coasts-vs-coasts" className="text-purple-700 hover:text-purple-900 underline">Coasts vs Coasts</a></li>
-            <li><a href="/spelling/seashores-vs-seashores" className="text-purple-700 hover:text-purple-900 underline">Seashores vs Seashores</a></li>
-            <li><a href="/spelling/strands-vs-strands" className="text-purple-700 hover:text-purple-900 underline">Strands vs Strands</a></li>
-            <li><a href="/spelling/littorals-vs-littorals" className="text-purple-700 hover:text-purple-900 underline">Littorals vs Littorals</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/plural-forms" className="text-green-700 hover:text-green-900 underline">Plural Forms</a></li>
-            <li><a href="/grammar/es-endings" className="text-green-700 hover:text-green-900 underline">Es Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

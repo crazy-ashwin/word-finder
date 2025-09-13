@@ -304,43 +304,7 @@ export default function RepliedVsReplyedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/replace-vs-riplace" className="text-blue-700 hover:text-blue-900 underline">Replace vs Riplace</a></li>
-            <li><a href="/spelling/repetition-vs-repitition" className="text-blue-700 hover:text-blue-900 underline">Repetition vs Repitition</a></li>
-            <li><a href="/spelling/repellent-vs-repellant" className="text-blue-700 hover:text-blue-900 underline">Repellent vs Repellant</a></li>
-            <li><a href="/spelling/repelled-vs-repeled" className="text-blue-700 hover:text-blue-900 underline">Repelled vs Repeled</a></li>
-            <li><a href="/spelling/repel-vs-repell" className="text-blue-700 hover:text-blue-900 underline">Repel vs Repell</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/replies-vs-replys" className="text-purple-700 hover:text-purple-900 underline">Replies vs Replys</a></li>
-            <li><a href="/spelling/tried-vs-tryed" className="text-purple-700 hover:text-purple-900 underline">Tried vs Tryed</a></li>
-            <li><a href="/spelling/cried-vs-cryed" className="text-purple-700 hover:text-purple-900 underline">Cried vs Cryed</a></li>
-            <li><a href="/spelling/dried-vs-dryed" className="text-purple-700 hover:text-purple-900 underline">Dried vs Dryed</a></li>
-            <li><a href="/spelling/studied-vs-studyed" className="text-purple-700 hover:text-purple-900 underline">Studied vs Studyed</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/past-tense" className="text-green-700 hover:text-green-900 underline">Past Tense</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/formal-english" className="text-green-700 hover:text-green-900 underline">Formal English</a></li>
-            <li><a href="/grammar/english-patterns" className="text-green-700 hover:text-green-900 underline">English Patterns</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

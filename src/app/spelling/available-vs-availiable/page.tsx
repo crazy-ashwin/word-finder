@@ -144,43 +144,7 @@ export default function AvailableVsAvailiablePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/available-vs-availible" className="text-blue-700 hover:text-blue-900 underline">Available vs Availible</a></li>
-            <li><a href="/spelling/available-vs-avalable" className="text-blue-700 hover:text-blue-900 underline">Available vs Avalable</a></li>
-            <li><a href="/spelling/available-vs-avaliable" className="text-blue-700 hover:text-blue-900 underline">Available vs Avaliable</a></li>
-            <li><a href="/spelling/avalanche-vs-avalance" className="text-blue-700 hover:text-blue-900 underline">Avalanche vs Avalance</a></li>
-            <li><a href="/spelling/averred-vs-avered" className="text-blue-700 hover:text-blue-900 underline">Averred vs Avered</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/reliable-vs-reliible" className="text-purple-700 hover:text-purple-900 underline">Reliable vs Reliible</a></li>
-            <li><a href="/spelling/enjoyable-vs-enjoyible" className="text-purple-700 hover:text-purple-900 underline">Enjoyable vs Enjoyible</a></li>
-            <li><a href="/spelling/accessible-vs-accessable" className="text-purple-700 hover:text-purple-900 underline">Accessible vs Accessable</a></li>
-            <li><a href="/spelling/obtainable-vs-obtainible" className="text-purple-700 hover:text-purple-900 underline">Obtainable vs Obtainible</a></li>
-            <li><a href="/spelling/attainable-vs-attainible" className="text-purple-700 hover:text-purple-900 underline">Attainable vs Attainible</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/able-suffix" className="text-green-700 hover:text-green-900 underline">-able Suffix</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -304,43 +304,7 @@ export default function RemittanceVsRemitancePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/reminisce-vs-reminence" className="text-blue-700 hover:text-blue-900 underline">Reminisce vs Reminence</a></li>
-            <li><a href="/spelling/remembrance-vs-remembrence" className="text-blue-700 hover:text-blue-900 underline">Remembrance vs Remembrence</a></li>
-            <li><a href="/spelling/remember-vs-rimember" className="text-blue-700 hover:text-blue-900 underline">Remember vs Rimember</a></li>
-            <li><a href="/spelling/remember-vs-remeber" className="text-blue-700 hover:text-blue-900 underline">Remember vs Remeber</a></li>
-            <li><a href="/spelling/rendezvous-vs-rendevous" className="text-blue-700 hover:text-blue-900 underline">Rendezvous vs Rendevous</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/transfer-vs-transfer" className="text-purple-700 hover:text-purple-900 underline">Transfer vs Transfer</a></li>
-            <li><a href="/spelling/payment-vs-paymant" className="text-purple-700 hover:text-purple-900 underline">Payment vs Paymant</a></li>
-            <li><a href="/spelling/money-vs-mony" className="text-purple-700 hover:text-purple-900 underline">Money vs Mony</a></li>
-            <li><a href="/spelling/banking-vs-bankin" className="text-purple-700 hover:text-purple-900 underline">Banking vs Bankin</a></li>
-            <li><a href="/spelling/finance-vs-finance" className="text-purple-700 hover:text-purple-900 underline">Finance vs Finance</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/financial-terms" className="text-green-700 hover:text-green-900 underline">Financial Terms</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/latin-origins" className="text-green-700 hover:text-green-900 underline">Latin Origins</a></li>
-            <li><a href="/grammar/business-vocabulary" className="text-green-700 hover:text-green-900 underline">Business Vocabulary</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

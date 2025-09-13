@@ -139,43 +139,7 @@ export default function BarelyVsBearlyPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/separate-vs-seperate" className="text-blue-700 hover:text-blue-900 underline">Separate vs Seperate</a></li>
-            <li><a href="/spelling/against-vs-againstt" className="text-blue-700 hover:text-blue-900 underline">Against vs Againstt</a></li>
-            <li><a href="/spelling/definitely-vs-definately" className="text-blue-700 hover:text-blue-900 underline">Definitely vs Definately</a></li>
-            <li><a href="/spelling/occurred-vs-occured" className="text-blue-700 hover:text-blue-900 underline">Occurred vs Occured</a></li>
-            <li><a href="/spelling/recommend-vs-recomend" className="text-blue-700 hover:text-blue-900 underline">Recommend vs Recomend</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/hardly-vs-hardley" className="text-purple-700 hover:text-purple-900 underline">Hardly vs Hardley</a></li>
-            <li><a href="/spelling/scarcely-vs-scarcly" className="text-purple-700 hover:text-purple-900 underline">Scarcely vs Scarcly</a></li>
-            <li><a href="/spelling/almost-vs-allmost" className="text-purple-700 hover:text-purple-900 underline">Almost vs Allmost</a></li>
-            <li><a href="/spelling/nearly-vs-nearley" className="text-purple-700 hover:text-purple-900 underline">Nearly vs Nearley</a></li>
-            <li><a href="/spelling/just-vs-jest" className="text-purple-700 hover:text-purple-900 underline">Just vs Jest</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/parts-of-speech" className="text-green-700 hover:text-green-900 underline">Parts of Speech</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

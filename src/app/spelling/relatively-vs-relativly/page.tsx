@@ -311,43 +311,7 @@ export default function RelativelyVsRelativlyPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/relevance-vs-relevence" className="text-blue-700 hover:text-blue-900 underline">Relevance vs Relevence</a></li>
-            <li><a href="/spelling/relay-vs-reley" className="text-blue-700 hover:text-blue-900 underline">Relay vs Reley</a></li>
-            <li><a href="/spelling/relation-vs-realtion" className="text-blue-700 hover:text-blue-900 underline">Relation vs Realtion</a></li>
-            <li><a href="/spelling/relating-vs-realting" className="text-blue-700 hover:text-blue-900 underline">Relating vs Realting</a></li>
-            <li><a href="/spelling/related-vs-releated" className="text-blue-700 hover:text-blue-900 underline">Related vs Releated</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/absolutely-vs-absolutly" className="text-purple-700 hover:text-purple-900 underline">Absolutely vs Absolutly</a></li>
-            <li><a href="/spelling/completely-vs-completly" className="text-purple-700 hover:text-purple-900 underline">Completely vs Completly</a></li>
-            <li><a href="/spelling/definitely-vs-definitly" className="text-purple-700 hover:text-purple-900 underline">Definitely vs Definitly</a></li>
-            <li><a href="/spelling/eventually-vs-eventualy" className="text-purple-700 hover:text-purple-900 underline">Eventually vs Eventualy</a></li>
-            <li><a href="/spelling/fortunately-vs-fortunatly" className="text-purple-700 hover:text-purple-900 underline">Fortunately vs Fortunatly</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/ly-suffix" className="text-green-700 hover:text-green-900 underline">-ly Suffix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -146,43 +146,7 @@ export default function ChildrenVsChildernPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/being-vs-bieng" className="text-blue-700 hover:text-blue-900 underline">Being vs Bieng</a></li>
-            <li><a href="/spelling/believe-vs-beleave" className="text-blue-700 hover:text-blue-900 underline">Believe vs Beleave</a></li>
-            <li><a href="/spelling/beautiful-vs-biutiful" className="text-blue-700 hover:text-blue-900 underline">Beautiful vs Biutiful</a></li>
-            <li><a href="/spelling/building-vs-biulding" className="text-blue-700 hover:text-blue-900 underline">Building vs Biulding</a></li>
-            <li><a href="/spelling/believing-vs-beleiving" className="text-blue-700 hover:text-blue-900 underline">Believing vs Beleiving</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/people-vs-peaple" className="text-purple-700 hover:text-purple-900 underline">People vs Peaple</a></li>
-            <li><a href="/spelling/women-vs-woman" className="text-purple-700 hover:text-purple-900 underline">Women vs Woman</a></li>
-            <li><a href="/spelling/men-vs-man" className="text-purple-700 hover:text-purple-900 underline">Men vs Man</a></li>
-            <li><a href="/spelling/families-vs-familys" className="text-purple-700 hover:text-purple-900 underline">Families vs Familys</a></li>
-            <li><a href="/spelling/communities-vs-communitys" className="text-purple-700 hover:text-purple-900 underline">Communities vs Communitys</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/plurals" className="text-green-700 hover:text-green-900 underline">Plurals Guide</a></li>
-            <li><a href="/grammar/irregular-plurals" className="text-green-700 hover:text-green-900 underline">Irregular Plurals</a></li>
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/old-english" className="text-green-700 hover:text-green-900 underline">Old English</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   );
 }

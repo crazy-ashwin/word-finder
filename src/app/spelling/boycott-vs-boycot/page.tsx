@@ -151,43 +151,7 @@ export default function BoycottVsBoycotPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/final-vs-final" className="text-blue-700 hover:text-blue-900 underline">Final vs Final</a></li>
-            <li><a href="/spelling/find-vs-find" className="text-blue-700 hover:text-blue-900 underline">Find vs Find</a></li>
-            <li><a href="/spelling/fine-vs-fine" className="text-blue-700 hover:text-blue-900 underline">Fine vs Fine</a></li>
-            <li><a href="/spelling/finger-vs-finger" className="text-blue-700 hover:text-blue-900 underline">Finger vs Finger</a></li>
-            <li><a href="/spelling/finish-vs-finish" className="text-blue-700 hover:text-blue-900 underline">Finish vs Finish</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/refuse-vs-refuse" className="text-purple-700 hover:text-purple-900 underline">Refuse vs Refuse</a></li>
-            <li><a href="/spelling/reject-vs-reject" className="text-purple-700 hover:text-purple-900 underline">Reject vs Reject</a></li>
-            <li><a href="/spelling/shun-vs-shun" className="text-purple-700 hover:text-purple-900 underline">Shun vs Shun</a></li>
-            <li><a href="/spelling/avoid-vs-avoid" className="text-purple-700 hover:text-purple-900 underline">Avoid vs Avoid</a></li>
-            <li><a href="/spelling/ostracize-vs-ostracize" className="text-purple-700 hover:text-purple-900 underline">Ostracize vs Ostracize</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -136,43 +136,7 @@ export default function AcrossVsAccrosPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/agree-vs-agree" className="text-blue-700 hover:text-blue-900 underline">Agree vs Agree</a></li>
-            <li><a href="/spelling/agreement-vs-agreement" className="text-blue-700 hover:text-blue-900 underline">Agreement vs Agreement</a></li>
-            <li><a href="/spelling/ahead-vs-ahead" className="text-blue-700 hover:text-blue-900 underline">Ahead vs Ahead</a></li>
-            <li><a href="/spelling/airplane-vs-airplane" className="text-blue-700 hover:text-blue-900 underline">Airplane vs Airplane</a></li>
-            <li><a href="/spelling/airport-vs-airport" className="text-blue-700 hover:text-blue-900 underline">Airport vs Airport</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/over-vs-over" className="text-purple-700 hover:text-purple-900 underline">Over vs Over</a></li>
-            <li><a href="/spelling/through-vs-through" className="text-purple-700 hover:text-purple-900 underline">Through vs Through</a></li>
-            <li><a href="/spelling/beyond-vs-beyond" className="text-purple-700 hover:text-purple-900 underline">Beyond vs Beyond</a></li>
-            <li><a href="/spelling/opposite-vs-opposite" className="text-purple-700 hover:text-purple-900 underline">Opposite vs Opposite</a></li>
-            <li><a href="/spelling/throughout-vs-throughout" className="text-purple-700 hover:text-purple-900 underline">Throughout vs Throughout</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/prepositions" className="text-green-700 hover:text-green-900 underline">Prepositions Guide</a></li>
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/double-letters" className="text-green-700 hover:text-green-900 underline">Double Letters</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

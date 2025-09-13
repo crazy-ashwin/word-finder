@@ -311,43 +311,7 @@ export default function ReinforceVsReforcePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/relevance-vs-relevence" className="text-blue-700 hover:text-blue-900 underline">Relevance vs Relevence</a></li>
-            <li><a href="/spelling/relay-vs-reley" className="text-blue-700 hover:text-blue-900 underline">Relay vs Reley</a></li>
-            <li><a href="/spelling/relatively-vs-relativly" className="text-blue-700 hover:text-blue-900 underline">Relatively vs Relativly</a></li>
-            <li><a href="/spelling/relation-vs-realtion" className="text-blue-700 hover:text-blue-900 underline">Relation vs Realtion</a></li>
-            <li><a href="/spelling/relating-vs-realting" className="text-blue-700 hover:text-blue-900 underline">Relating vs Realting</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/strengthen-vs-strenghen" className="text-purple-700 hover:text-purple-900 underline">Strengthen vs Strenghen</a></li>
-            <li><a href="/spelling/support-vs-suport" className="text-purple-700 hover:text-purple-900 underline">Support vs Suport</a></li>
-            <li><a href="/spelling/bolster-vs-bolster" className="text-purple-700 hover:text-purple-900 underline">Bolster vs Bolster</a></li>
-            <li><a href="/spelling/fortify-vs-fortify" className="text-purple-700 hover:text-purple-900 underline">Fortify vs Fortify</a></li>
-            <li><a href="/spelling/enhance-vs-enhance" className="text-purple-700 hover:text-purple-900 underline">Enhance vs Enhance</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/prefixes" className="text-green-700 hover:text-green-900 underline">Prefixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/re-prefix" className="text-green-700 hover:text-green-900 underline">Re- Prefix</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

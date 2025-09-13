@@ -304,43 +304,7 @@ export default function ResponsibilityVsResponsiblityPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/represent-vs-repersent" className="text-blue-700 hover:text-blue-900 underline">Represent vs Repersent</a></li>
-            <li><a href="/spelling/replies-vs-replys" className="text-blue-700 hover:text-blue-900 underline">Replies vs Replys</a></li>
-            <li><a href="/spelling/replied-vs-replyed" className="text-blue-700 hover:text-blue-900 underline">Replied vs Replyed</a></li>
-            <li><a href="/spelling/replace-vs-riplace" className="text-blue-700 hover:text-blue-900 underline">Replace vs Riplace</a></li>
-            <li><a href="/spelling/repetition-vs-repitition" className="text-blue-700 hover:text-blue-900 underline">Repetition vs Repitition</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/responsible-vs-responssible" className="text-purple-700 hover:text-purple-900 underline">Responsible vs Responssible</a></li>
-            <li><a href="/spelling/responsible-vs-responsable" className="text-purple-700 hover:text-purple-900 underline">Responsible vs Responsable</a></li>
-            <li><a href="/spelling/responsible-vs-responcible" className="text-purple-700 hover:text-purple-900 underline">Responsible vs Responcible</a></li>
-            <li><a href="/spelling/ability-vs-ablity" className="text-purple-700 hover:text-purple-900 underline">Ability vs Ablity</a></li>
-            <li><a href="/spelling/possibility-vs-possablity" className="text-purple-700 hover:text-purple-900 underline">Possibility vs Possablity</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/formal-english" className="text-green-700 hover:text-green-900 underline">Formal English</a></li>
-            <li><a href="/grammar/latin-origins" className="text-green-700 hover:text-green-900 underline">Latin Origins</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

@@ -86,43 +86,7 @@ export default function CemeteryVsCemetry() {
         </div>
 
         {/* Three Column Layout */}
-        <div className="grid md:grid-cols-3 gap-6 mt-12">
-          {/* Featured Misspellings */}
-          <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-            <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-            <ul className="space-y-2">
-              <li><a href="/spelling/garden-vs-garden" className="text-blue-700 hover:text-blue-900 underline">Garden vs Garden</a></li>
-              <li><a href="/spelling/gas-vs-gas" className="text-blue-700 hover:text-blue-900 underline">Gas vs Gas</a></li>
-              <li><a href="/spelling/gate-vs-gate" className="text-blue-700 hover:text-blue-900 underline">Gate vs Gate</a></li>
-              <li><a href="/spelling/gather-vs-gather" className="text-blue-700 hover:text-blue-900 underline">Gather vs Gather</a></li>
-              <li><a href="/spelling/general-vs-general" className="text-blue-700 hover:text-blue-900 underline">General vs General</a></li>
-            </ul>
-          </div>
-
-          {/* Related Misspellings */}
-          <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-            <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-            <ul className="space-y-2">
-              <li><a href="/spelling/graveyard-vs-graveyard" className="text-purple-700 hover:text-purple-900 underline">Graveyard vs Graveyard</a></li>
-              <li><a href="/spelling/burial-vs-burial" className="text-purple-700 hover:text-purple-900 underline">Burial vs Burial</a></li>
-              <li><a href="/spelling/memorial-vs-memorial" className="text-purple-700 hover:text-purple-900 underline">Memorial vs Memorial</a></li>
-              <li><a href="/spelling/necropolis-vs-necropolis" className="text-purple-700 hover:text-purple-900 underline">Necropolis vs Necropolis</a></li>
-              <li><a href="/spelling/tomb-vs-tomb" className="text-purple-700 hover:text-purple-900 underline">Tomb vs Tomb</a></li>
-            </ul>
-          </div>
-
-          {/* Learned Grammar */}
-          <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-            <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-            <ul className="space-y-2">
-              <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-              <li><a href="/grammar/ery-endings" className="text-green-700 hover:text-green-900 underline">Ery Endings</a></li>
-              <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-              <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-              <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-            </ul>
-          </div>
-        </div>
+        
       </main>
     </>
   );

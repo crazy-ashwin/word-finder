@@ -147,43 +147,7 @@ export default function AlwaysVsAllwaysPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/easy-vs-easy" className="text-blue-700 hover:text-blue-900 underline">Easy vs Easy</a></li>
-            <li><a href="/spelling/eat-vs-eat" className="text-blue-700 hover:text-blue-900 underline">Eat vs Eat</a></li>
-            <li><a href="/spelling/edge-vs-edge" className="text-blue-700 hover:text-blue-900 underline">Edge vs Edge</a></li>
-            <li><a href="/spelling/eight-vs-eight" className="text-blue-700 hover:text-blue-900 underline">Eight vs Eight</a></li>
-            <li><a href="/spelling/either-vs-either" className="text-blue-700 hover:text-blue-900 underline">Either vs Either</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/forever-vs-forever" className="text-purple-700 hover:text-purple-900 underline">Forever vs Forever</a></li>
-            <li><a href="/spelling/constantly-vs-constantly" className="text-purple-700 hover:text-purple-900 underline">Constantly vs Constantly</a></li>
-            <li><a href="/spelling/continuously-vs-continuously" className="text-purple-700 hover:text-purple-900 underline">Continuously vs Continuously</a></li>
-            <li><a href="/spelling/perpetually-vs-perpetually" className="text-purple-700 hover:text-purple-900 underline">Perpetually vs Perpetually</a></li>
-            <li><a href="/spelling/invariably-vs-invariably" className="text-purple-700 hover:text-purple-900 underline">Invariably vs Invariably</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adverbs" className="text-green-700 hover:text-green-900 underline">Adverbs Guide</a></li>
-            <li><a href="/grammar/double-consonants" className="text-green-700 hover:text-green-900 underline">Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

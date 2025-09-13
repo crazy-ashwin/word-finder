@@ -297,43 +297,7 @@ export default function ResponsibleVsResponciblePage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/retention-vs-retension" className="text-blue-700 hover:text-blue-900 underline">Retention vs Retension</a></li>
-            <li><a href="/spelling/restraint-vs-restrant" className="text-blue-700 hover:text-blue-900 underline">Restraint vs Restrant</a></li>
-            <li><a href="/spelling/restaurant-vs-restarant" className="text-blue-700 hover:text-blue-900 underline">Restaurant vs Restarant</a></li>
-            <li><a href="/spelling/restauranter-vs-restauranteer" className="text-blue-700 hover:text-blue-900 underline">Restauranter vs Restauranteer</a></li>
-            <li><a href="/spelling/responsible-vs-responssible" className="text-blue-700 hover:text-blue-900 underline">Responsible vs Responssible</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/possible-vs-possable" className="text-purple-700 hover:text-purple-900 underline">Possible vs Possable</a></li>
-            <li><a href="/spelling/visible-vs-visable" className="text-purple-700 hover:text-purple-900 underline">Visible vs Visable</a></li>
-            <li><a href="/spelling/credible-vs-credable" className="text-purple-700 hover:text-purple-900 underline">Credible vs Credable</a></li>
-            <li><a href="/spelling/accessible-vs-accessable" className="text-purple-700 hover:text-purple-900 underline">Accessible vs Accessable</a></li>
-            <li><a href="/spelling/acceptable-vs-acceptable" className="text-purple-700 hover:text-purple-900 underline">Acceptable vs Acceptable</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/formal-english" className="text-green-700 hover:text-green-900 underline">Formal English</a></li>
-            <li><a href="/grammar/latin-origins" className="text-green-700 hover:text-green-900 underline">Latin Origins</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

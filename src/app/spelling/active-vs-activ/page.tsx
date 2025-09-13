@@ -139,43 +139,7 @@ export default function ActiveVsActivPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/alone-vs-alone" className="text-blue-700 hover:text-blue-900 underline">Alone vs Alone</a></li>
-            <li><a href="/spelling/along-vs-along" className="text-blue-700 hover:text-blue-900 underline">Along vs Along</a></li>
-            <li><a href="/spelling/already-vs-already" className="text-blue-700 hover:text-blue-900 underline">Already vs Already</a></li>
-            <li><a href="/spelling/also-vs-also" className="text-blue-700 hover:text-blue-900 underline">Also vs Also</a></li>
-            <li><a href="/spelling/although-vs-allthough" className="text-blue-700 hover:text-blue-900 underline">Although vs Allthough</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/energetic-vs-energetic" className="text-purple-700 hover:text-purple-900 underline">Energetic vs Energetic</a></li>
-            <li><a href="/spelling/dynamic-vs-dynamic" className="text-purple-700 hover:text-purple-900 underline">Dynamic vs Dynamic</a></li>
-            <li><a href="/spelling/engaged-vs-engaged" className="text-purple-700 hover:text-purple-900 underline">Engaged vs Engaged</a></li>
-            <li><a href="/spelling/busy-vs-busy" className="text-purple-700 hover:text-purple-900 underline">Busy vs Busy</a></li>
-            <li><a href="/spelling/lively-vs-lively" className="text-purple-700 hover:text-purple-900 underline">Lively vs Lively</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

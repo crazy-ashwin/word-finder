@@ -304,43 +304,7 @@ export default function RepliesVsReplysPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/replied-vs-replyed" className="text-blue-700 hover:text-blue-900 underline">Replied vs Replyed</a></li>
-            <li><a href="/spelling/replace-vs-riplace" className="text-blue-700 hover:text-blue-900 underline">Replace vs Riplace</a></li>
-            <li><a href="/spelling/repetition-vs-repitition" className="text-blue-700 hover:text-blue-900 underline">Repetition vs Repitition</a></li>
-            <li><a href="/spelling/repellent-vs-repellant" className="text-blue-700 hover:text-blue-900 underline">Repellent vs Repellant</a></li>
-            <li><a href="/spelling/repelled-vs-repeled" className="text-blue-700 hover:text-blue-900 underline">Repelled vs Repeled</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/babies-vs-babys" className="text-purple-700 hover:text-purple-900 underline">Babies vs Babys</a></li>
-            <li><a href="/spelling/parties-vs-partys" className="text-purple-700 hover:text-purple-900 underline">Parties vs Partys</a></li>
-            <li><a href="/spelling/studies-vs-studys" className="text-purple-700 hover:text-purple-900 underline">Studies vs Studys</a></li>
-            <li><a href="/spelling/countries-vs-countrys" className="text-purple-700 hover:text-purple-900 underline">Countries vs Countrys</a></li>
-            <li><a href="/spelling/cities-vs-citys" className="text-purple-700 hover:text-purple-900 underline">Cities vs Citys</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/plural-nouns" className="text-green-700 hover:text-green-900 underline">Plural Nouns</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/word-formation" className="text-green-700 hover:text-green-900 underline">Word Formation</a></li>
-            <li><a href="/grammar/formal-english" className="text-green-700 hover:text-green-900 underline">Formal English</a></li>
-            <li><a href="/grammar/english-patterns" className="text-green-700 hover:text-green-900 underline">English Patterns</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 }

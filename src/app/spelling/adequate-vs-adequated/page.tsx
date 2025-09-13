@@ -185,43 +185,7 @@ export default function AdequateVsAdequatedPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/baseball-vs-baseball" className="text-blue-700 hover:text-blue-900 underline">Baseball vs Baseball</a></li>
-            <li><a href="/spelling/basic-vs-basic" className="text-blue-700 hover:text-blue-900 underline">Basic vs Basic</a></li>
-            <li><a href="/spelling/basketball-vs-basketball" className="text-blue-700 hover:text-blue-900 underline">Basketball vs Basketball</a></li>
-            <li><a href="/spelling/bathroom-vs-bathroom" className="text-blue-700 hover:text-blue-900 underline">Bathroom vs Bathroom</a></li>
-            <li><a href="/spelling/battle-vs-battle" className="text-blue-700 hover:text-blue-900 underline">Battle vs Battle</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/passable-vs-passable" className="text-purple-700 hover:text-purple-900 underline">Passable vs Passable</a></li>
-            <li><a href="/spelling/competent-vs-competent" className="text-purple-700 hover:text-purple-900 underline">Competent vs Competent</a></li>
-            <li><a href="/spelling/tolerable-vs-tolerable" className="text-purple-700 hover:text-purple-900 underline">Tolerable vs Tolerable</a></li>
-            <li><a href="/spelling/decent-vs-decent" className="text-purple-700 hover:text-purple-900 underline">Decent vs Decent</a></li>
-            <li><a href="/spelling/reasonable-vs-reasonable" className="text-purple-700 hover:text-purple-900 underline">Reasonable vs Reasonable</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/adjectives" className="text-green-700 hover:text-green-900 underline">Adjectives Guide</a></li>
-            <li><a href="/grammar/suffixes" className="text-green-700 hover:text-green-900 underline">Suffixes</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

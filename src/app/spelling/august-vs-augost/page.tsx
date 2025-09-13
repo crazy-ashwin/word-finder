@@ -144,43 +144,7 @@ export default function AugustVsAugostPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/january-vs-january" className="text-blue-700 hover:text-blue-900 underline">January vs January</a></li>
-            <li><a href="/spelling/february-vs-february" className="text-blue-700 hover:text-blue-900 underline">February vs February</a></li>
-            <li><a href="/spelling/march-vs-march" className="text-blue-700 hover:text-blue-900 underline">March vs March</a></li>
-            <li><a href="/spelling/april-vs-april" className="text-blue-700 hover:text-blue-900 underline">April vs April</a></li>
-            <li><a href="/spelling/may-vs-may" className="text-blue-700 hover:text-blue-900 underline">May vs May</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/summer-vs-summer" className="text-purple-700 hover:text-purple-900 underline">Summer vs Summer</a></li>
-            <li><a href="/spelling/month-vs-month" className="text-purple-700 hover:text-purple-900 underline">Month vs Month</a></li>
-            <li><a href="/spelling/season-vs-season" className="text-purple-700 hover:text-purple-900 underline">Season vs Season</a></li>
-            <li><a href="/spelling/vacation-vs-vacation" className="text-purple-700 hover:text-purple-900 underline">Vacation vs Vacation</a></li>
-            <li><a href="/spelling/holiday-vs-holiday" className="text-purple-700 hover:text-purple-900 underline">Holiday vs Holiday</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/nouns" className="text-green-700 hover:text-green-900 underline">Nouns Guide</a></li>
-            <li><a href="/grammar/ust-endings" className="text-green-700 hover:text-green-900 underline">Ust Endings</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 

@@ -185,43 +185,7 @@ export default function AdmitVsAdmittPage() {
       </div>
 
       {/* Three Column Layout */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12">
-        {/* Featured Misspellings */}
-        <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-          <h3 className="text-xl font-bold mb-4 text-blue-900">Featured Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/beach-vs-beach" className="text-blue-700 hover:text-blue-900 underline">Beach vs Beach</a></li>
-            <li><a href="/spelling/beautiful-vs-beautiful" className="text-blue-700 hover:text-blue-900 underline">Beautiful vs Beautiful</a></li>
-            <li><a href="/spelling/because-vs-because" className="text-blue-700 hover:text-blue-900 underline">Because vs Because</a></li>
-            <li><a href="/spelling/become-vs-become" className="text-blue-700 hover:text-blue-900 underline">Become vs Become</a></li>
-            <li><a href="/spelling/before-vs-before" className="text-blue-700 hover:text-blue-900 underline">Before vs Before</a></li>
-          </ul>
-        </div>
-
-        {/* Related Misspellings */}
-        <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
-          <h3 className="text-xl font-bold mb-4 text-purple-900">Related Misspellings</h3>
-          <ul className="space-y-2">
-            <li><a href="/spelling/grant-vs-grant" className="text-purple-700 hover:text-purple-900 underline">Grant vs Grant</a></li>
-            <li><a href="/spelling/permit-vs-permit" className="text-purple-700 hover:text-purple-900 underline">Permit vs Permit</a></li>
-            <li><a href="/spelling/recognize-vs-recognize" className="text-purple-700 hover:text-purple-900 underline">Recognize vs Recognize</a></li>
-            <li><a href="/spelling/agree-vs-agree" className="text-purple-700 hover:text-purple-900 underline">Agree vs Agree</a></li>
-            <li><a href="/spelling/confess-vs-confess" className="text-purple-700 hover:text-purple-900 underline">Confess vs Confess</a></li>
-          </ul>
-        </div>
-
-        {/* Learned Grammar */}
-        <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
-          <h3 className="text-xl font-bold mb-4 text-green-900">Learned Grammar</h3>
-          <ul className="space-y-2">
-            <li><a href="/grammar/verbs" className="text-green-700 hover:text-green-900 underline">Verbs Guide</a></li>
-            <li><a href="/grammar/single-vs-double-consonants" className="text-green-700 hover:text-green-900 underline">Single vs Double Consonants</a></li>
-            <li><a href="/grammar/spelling-rules" className="text-green-700 hover:text-green-900 underline">Spelling Rules</a></li>
-            <li><a href="/grammar/etymology" className="text-green-700 hover:text-green-900 underline">Etymology</a></li>
-            <li><a href="/grammar/common-mistakes" className="text-green-700 hover:text-green-900 underline">Common Mistakes</a></li>
-          </ul>
-        </div>
-      </div>
+      
     </div>
   )
 } 
