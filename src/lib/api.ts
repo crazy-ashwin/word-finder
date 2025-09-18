@@ -30,16 +30,21 @@ export interface SpellingEntry {
 	incorrect_word: string;
 	correct_definition: string;
 	incorrect_definition: string;
-	correct_examples: string;
-	incorrect_examples: string;
-	synonyms_correct: string;
-	notes: string;
-	faqs: string;
+	correct_examples: string[];
+	incorrect_examples: string[];
+	synonyms_correct: string[];
+	notes: string[];
+	faqs: Array<{
+		question: string;
+		answer: string;
+	}>;
 	summary: string;
 	is_published: boolean;
 	created_at: string;
 	updated_at: string;
 }
+
+export type SpellingEntryInput = Omit<SpellingEntry, 'id' | 'created_at' | 'updated_at'>
 
 // Create axios instance with base configuration
 const api = axios.create({
@@ -68,7 +73,7 @@ export const spellingAPI = {
 	},
 
 	// Create new spelling entry
-	createEntry: async (entryData: SpellingEntry) => {
+	createEntry: async (entryData: SpellingEntryInput) => {
 		const adminKey = getAdminKey();
 		if (!adminKey) {
 			throw new Error("Admin key not found");
@@ -82,7 +87,7 @@ export const spellingAPI = {
 	},
 
 	// Update spelling entry
-	updateEntry: async (id: string, entryData: SpellingEntry) => {
+	updateEntry: async (id: string, entryData: SpellingEntryInput) => {
 		const adminKey = getAdminKey();
 		if (!adminKey) {
 			throw new Error("Admin key not found");

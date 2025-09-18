@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { SpellingEntry } from "@/lib/supabase";
+import { SpellingEntryInput } from "@/lib/api";
 import { Plus, Edit, Trash2, Save, X } from "lucide-react";
 import { spellingAPI } from "@/lib/api";
 
@@ -99,7 +100,7 @@ export default function AdminSpellingPage() {
 
 		setLoading(true);
 		try {
-			const entryData = {
+			const entryData: SpellingEntryInput = {
 				...formData,
 				correct_examples: formData.correct_examples
 					.split("\n")
