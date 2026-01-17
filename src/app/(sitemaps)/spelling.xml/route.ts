@@ -18,7 +18,6 @@ export async function GET() {
 			return new NextResponse(xml, {
 				headers: {
 					"Content-Type": "application/xml",
-					"Cache-Control": "public, max-age=3600, s-maxage=3600",
 				},
 			});
 		}
@@ -32,7 +31,7 @@ export async function GET() {
 						? new Date(entry.updated_at).toISOString()
 						: new Date().toISOString();
 
-					return `  <url>\n    <loc>${baseUrl}spelling/${entry.slug}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.6</priority>\n  </url>`;
+					return `  <url>\n    <loc>${baseUrl}spelling/${entry.slug}</loc>\n    <lastmod>${lastmod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>`;
 				})
 				.join("\n") || "";
 
@@ -41,17 +40,15 @@ export async function GET() {
 		return new NextResponse(xml, {
 			headers: {
 				"Content-Type": "application/xml",
-				"Cache-Control": "public, max-age=3600, s-maxage=3600",
 			},
 		});
 	} catch (error) {
-		console.error("Error generating misspellings sitemap:", error);
+		console.error("Error generating spelling sitemap:", error);
 		// Return empty sitemap on error
 		const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n</urlset>`;
 		return new NextResponse(xml, {
 			headers: {
 				"Content-Type": "application/xml",
-				"Cache-Control": "public, max-age=3600, s-maxage=3600",
 			},
 		});
 	}

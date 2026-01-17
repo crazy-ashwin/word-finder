@@ -9,14 +9,14 @@ export async function GET() {
 	// Get grammar directories paths
 	const grammarDir = path.join(process.cwd(), "src/app/grammar");
 	const grammarRulesDir = path.join(process.cwd(), "src/app/grammar-rules");
-	
+
 	// Read all directories in grammar folder
 	let grammarFolders: string[] = [];
 	try {
 		const items = fs.readdirSync(grammarDir, { withFileTypes: true });
 		grammarFolders = items
-			.filter(item => item.isDirectory())
-			.map(item => item.name);
+			.filter((item) => item.isDirectory())
+			.map((item) => item.name);
 	} catch (error) {
 		console.error("Error reading grammar directory:", error);
 		grammarFolders = [];
@@ -27,8 +27,8 @@ export async function GET() {
 	try {
 		const items = fs.readdirSync(grammarRulesDir, { withFileTypes: true });
 		grammarRulesFolders = items
-			.filter(item => item.isDirectory())
-			.map(item => `grammar-rules/${item.name}`);
+			.filter((item) => item.isDirectory())
+			.map((item) => `grammar-rules/${item.name}`);
 	} catch (error) {
 		console.error("Error reading grammar-rules directory:", error);
 		grammarRulesFolders = [];
@@ -36,7 +36,11 @@ export async function GET() {
 
 	// Add main grammar pages
 	const mainGrammarPages = ["grammar", "grammar-rules"];
-	const allGrammarPages = [...mainGrammarPages, ...grammarFolders, ...grammarRulesFolders];
+	const allGrammarPages = [
+		...mainGrammarPages,
+		...grammarFolders,
+		...grammarRulesFolders,
+	];
 
 	const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -46,7 +50,7 @@ ${allGrammarPages
     <loc>${baseUrl}${page}</loc>
     <lastmod>${now}</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>`
 	)
 	.join("\n")}
