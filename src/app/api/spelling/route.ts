@@ -29,7 +29,7 @@ export async function GET(request: NextRequest) {
 			const getTotal = searchParams.get("getTotal") === "true";
 
 			// Build query with pagination
-			let query = supabase
+			const query = supabase
 				.from("spelling_entries")
 				.select("*", getTotal ? { count: "exact" } : undefined)
 				.eq("is_published", true)
