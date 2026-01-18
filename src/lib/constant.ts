@@ -1,1 +1,1 @@
-export const baseUrl = "http://findwordfinder.com/";
+export const baseUrl = "https://findwordfinder.com/";
