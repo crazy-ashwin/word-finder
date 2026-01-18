@@ -24,15 +24,34 @@ export default function SpellingIndexPage() {
 	const [searchTerm, setSearchTerm] = useState("");
 	const [selectedLetter, setSelectedLetter] = useState("All");
 	const [loading, setLoading] = useState(true);
-	const [displayCount, setDisplayCount] = useState(12);
+	const [loadingMore, setLoadingMore] = useState(false);
+	
+	// Pagination state - always load 12 entries at a time
+	const [currentOffset, setCurrentOffset] = useState(0);
+	const [totalCount, setTotalCount] = useState(0);
+	const [hasMore, setHasMore] = useState(true);
+	const PAGE_SIZE = 12; // Always load 12 entries at a time
 
-	// Fetch entries on component mount
+	// Fetch initial entries on component mount
 	useEffect(() => {
-		const fetchEntries = async () => {
+		const fetchInitialEntries = async () => {
 			try {
-				const data = await spellingAPI.getEntries();
-				setEntries(data || []);
-				setFilteredEntries(data || []);
+				setLoading(true);
+				const response = await spellingAPI.getEntries(undefined, {
+					limit: PAGE_SIZE,
+					offset: 0,
+					getTotal: true,
+				});
+				
+				// Handle both old format (array) and new format (object with data/total)
+				const entriesData = Array.isArray(response) ? response : response.data || [];
+				const total = Array.isArray(response) ? entriesData.length : response.total || 0;
+				
+				setEntries(entriesData);
+				setFilteredEntries(entriesData);
+				setTotalCount(total);
+				setCurrentOffset(entriesData.length);
+				setHasMore(entriesData.length < total);
 			} catch (error) {
 				console.error("Error fetching spelling entries:", error);
 			} finally {
@@ -40,7 +59,7 @@ export default function SpellingIndexPage() {
 			}
 		};
 
-		fetchEntries();
+		fetchInitialEntries();
 	}, []);
 
 	// Filter entries based on search term and selected letter
@@ -80,20 +99,58 @@ export default function SpellingIndexPage() {
 		}
 
 		setFilteredEntries(filtered);
-		
-		setDisplayCount(12); // Reset display count when filters change
 	}, [entries, searchTerm, selectedLetter]);
 
 	const handleRefresh = async () => {
 		setLoading(true);
+		setCurrentOffset(0);
 		try {
-			const data = await spellingAPI.getEntries();
-			setEntries(data || []);
-			setDisplayCount(12); // Reset display count on refresh
+			const response = await spellingAPI.getEntries(undefined, {
+				limit: PAGE_SIZE,
+				offset: 0,
+				getTotal: true,
+			});
+			
+			const entriesData = Array.isArray(response) ? response : response.data || [];
+			const total = Array.isArray(response) ? entriesData.length : response.total || 0;
+			
+			setEntries(entriesData);
+			setFilteredEntries(entriesData);
+			setTotalCount(total);
+			setCurrentOffset(entriesData.length);
+			setHasMore(entriesData.length < total);
 		} catch (error) {
 			console.error("Error refreshing entries:", error);
 		} finally {
 			setLoading(false);
+		}
+	};
+
+	// Always load 12 more entries from database
+	const handleLoadMore = async () => {
+		if (loadingMore || !hasMore) return;
+
+		try {
+			setLoadingMore(true);
+			const response = await spellingAPI.getEntries(undefined, {
+				limit: PAGE_SIZE,
+				offset: currentOffset,
+				getTotal: false,
+			});
+			
+			const newEntries = Array.isArray(response) ? response : response.data || [];
+			
+			if (newEntries.length > 0) {
+				setEntries((prev) => [...prev, ...newEntries]);
+				setCurrentOffset((prev) => prev + newEntries.length);
+				setHasMore(newEntries.length === PAGE_SIZE);
+			} else {
+				setHasMore(false);
+			}
+		} catch (error) {
+			console.error("Error loading more entries:", error);
+		} finally {
+			setLoadingMore(false);
 		}
 	};
 
@@ -199,9 +256,8 @@ export default function SpellingIndexPage() {
 						</h2>
 						<div className='flex gap-2'>
 							<Badge className='bg-purple-100 text-purple-800 border-0'>
-								{filteredEntries.length 
-									}{" "}
-								Spelling Comparisons
+								{filteredEntries.length}{" "}
+								Spelling Comparisons of {totalCount}
 							</Badge>
 						</div>
 					</div>
@@ -222,11 +278,9 @@ export default function SpellingIndexPage() {
 				{filteredEntries.length > 0 && (
 					<div className='mb-12'>
 						<div className='grid md:grid-cols-2 lg:grid-cols-3 gap-6'>
-							{filteredEntries
-								.slice(0, displayCount)
-								.map((entry) => (
+							{filteredEntries.map((entry, index) => (
 									<Link
-										key={entry.id}
+										key={index}
 										href={`/spelling/${entry.slug}`}
 										className='group'>
 										<Card className='h-full hover:shadow-xl transition-all duration-300 transform group-hover:-translate-y-2 cursor-pointer border-0 shadow-lg'>
@@ -270,45 +324,26 @@ export default function SpellingIndexPage() {
 					</div>
 				)}
 
-				{/* Load More / Show Less Buttons */}
-				{filteredEntries.length > 12 && (
+				{/* Load More Button */}
+				{hasMore && (
 					<div className='text-center mb-8'>
-						<div className='flex flex-col sm:flex-row gap-4 justify-center'>
-							{/* Load More Button */}
-							{(filteredEntries.length > displayCount ||
-								 displayCount) && (
-								<Button
-									onClick={() =>
-										setDisplayCount(displayCount + 12)
-									}
-									className='bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>
-									<span className='flex items-center justify-center gap-2'>
-										📚 Load More (
-										{Math.min(
-											12,
-											filteredEntries.length +
-												-
-												displayCount
-										)}{" "}
-										more)
-									</span>
-								</Button>
-							)}
-
-							{/* Show Less Button */}
-							{displayCount > 12 && (
-								<Button
-									onClick={() => setDisplayCount(12)}
-									className='bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white font-semibold py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl'>
-									<span className='flex items-center justify-center gap-2'>
-										🔽 Show Less (Showing {displayCount} of{" "}
-										{filteredEntries.length 
-											}
-										)
-									</span>
-								</Button>
-							)}
-						</div>
+						<Button
+							onClick={handleLoadMore}
+							disabled={loadingMore}
+							className='bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed'>
+							<span className='flex items-center justify-center gap-2'>
+								{loadingMore ? (
+									<>
+										<RefreshCw className='w-4 h-4 animate-spin' />
+										Loading...
+									</>
+								) : (
+									<>
+										📚 Load More
+									</>
+								)}
+							</span>
+						</Button>
 					</div>
 				)}
 
@@ -335,7 +370,6 @@ export default function SpellingIndexPage() {
 										onClick={() => {
 											setSearchTerm("");
 											setSelectedLetter("All");
-											setDisplayCount(12);
 										}}
 										className='mt-4 bg-purple-600 hover:bg-purple-700 text-white'>
 										Clear Filters

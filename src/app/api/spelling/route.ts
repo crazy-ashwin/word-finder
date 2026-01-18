@@ -23,11 +23,20 @@ export async function GET(request: NextRequest) {
 
 			return NextResponse.json(data);
 		} else {
-			// Get all entries
-			const { data, error } = await supabase
+			// Get entries with pagination support
+			const limit = parseInt(searchParams.get("limit") || "24", 10);
+			const offset = parseInt(searchParams.get("offset") || "0", 10);
+			const getTotal = searchParams.get("getTotal") === "true";
+
+			// Build query with pagination
+			let query = supabase
 				.from("spelling_entries")
-				.select("*")
-				.order("created_at", { ascending: false });
+				.select("*", getTotal ? { count: "exact" } : undefined)
+				.eq("is_published", true)
+				.order("created_at", { ascending: false })
+				.range(offset, offset + limit - 1);
+
+			const { data, error, count } = await query;
 
 			if (error) {
 				return NextResponse.json(
@@ -36,7 +45,18 @@ export async function GET(request: NextRequest) {
 				);
 			}
 
-			return NextResponse.json(data);
+			// Return paginated response with total count if requested
+			if (getTotal) {
+				return NextResponse.json({
+					data: data || [],
+					total: count || 0,
+					limit,
+					offset,
+					hasMore: count ? offset + limit < count : false,
+				});
+			}
+
+			return NextResponse.json(data || []);
 		}
 	} catch (error) {
 		console.error("API Error:", error);

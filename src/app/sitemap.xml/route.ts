@@ -1,45 +1,36 @@
 import { baseUrl } from "@/lib/constant";
+import { NextResponse } from "next/server";
 
 export async function GET() {
 	const now = new Date().toISOString();
 
+	const sitemaps = [
+		"static.xml",
+		"tools.xml",
+		"words.xml",
+		"blog.xml",
+		"spelling.xml",
+		"grammar.xml",
+		"dictionary.xml",
+		"games.xml",
+	];
+
 	const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap>
-    <loc>${baseUrl}static.xml</loc>
+${sitemaps
+	.map(
+		(sitemap) => `  <sitemap>
+    <loc>${baseUrl}${sitemap}</loc>
     <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}tools.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}words.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}blog.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}spelling.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}grammar.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}dictionary.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
-  <sitemap>
-    <loc>${baseUrl}games.xml</loc>
-    <lastmod>${now}</lastmod>
-  </sitemap>
+  </sitemap>`
+	)
+	.join("\n")}
 </sitemapindex>`;
 
-	return new Response(sitemapIndex, {
-		headers: { "Content-Type": "application/xml" },
+	return new NextResponse(sitemapIndex, {
+		headers: {
+			"Content-Type": "application/xml; charset=utf-8",
+			"Cache-Control": "public, max-age=3600, s-maxage=3600",
+		},
 	});
 }

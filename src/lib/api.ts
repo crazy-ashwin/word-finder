@@ -81,11 +81,29 @@ const getAdminKey = () => {
 
 // API functions
 export const spellingAPI = {
-	// Get all spelling entries or specific entry by slug
-	getEntries: async (slug?: string) => {
-		const url = slug ? `/spelling?slug=${slug}` : "/spelling";
-		const response = await api.get(url);
-		return response.data;
+	// Get spelling entries with optional pagination
+	// If slug is provided, returns single entry
+	// Otherwise, returns paginated list
+	getEntries: async (
+		slug?: string,
+		options?: { limit?: number; offset?: number; getTotal?: boolean }
+	) => {
+		if (slug) {
+			// Single entry by slug
+			const url = `/spelling?slug=${slug}`;
+			const response = await api.get(url);
+			return response.data;
+		} else {
+			// Paginated list
+			const limit = options?.limit || 24;
+			const offset = options?.offset || 0;
+			const getTotal = options?.getTotal || false;
+			const url = `/spelling?limit=${limit}&offset=${offset}${
+				getTotal ? "&getTotal=true" : ""
+			}`;
+			const response = await api.get(url);
+			return response.data;
+		}
 	},
 
 	// Check if slug exists
