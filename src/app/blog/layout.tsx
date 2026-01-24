@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Grammar Blog | Word Finder",
     description: "Articles, guides, and tips to improve your grammar and writing.",
-    url: `${baseUrl}blog`,
+    url: `${baseUrl}/blog`,
     type: "website",
   },
   robots: "index, follow",

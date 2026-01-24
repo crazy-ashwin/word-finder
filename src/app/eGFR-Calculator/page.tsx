@@ -363,8 +363,8 @@ export default function EGFRCalculator() {
 					name='keywords'
 					content='eGFR calculator, CKD-EPI equations, kidney function, renal function'
 				/>
-				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}eGFR-Calculator`} />
+				<meta name='robots' content='index' />
+				<link rel='canonical' href={`${baseUrl}/eGFR-Calculator`} />
 			</head>
 			<div className='text-center mb-8'>
 				<h1 className='text-4xl font-bold text-gray-900 mb-4'>

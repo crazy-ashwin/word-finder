@@ -82,7 +82,7 @@ export default function ScrabbleCalculatorPage() {
 					content='scrabble calculator, word games, word puzzles, word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}scrabble-calculator`} />
+				<link rel='canonical' href={`${baseUrl}/scrabble-calculator`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-4xl mx-auto'>

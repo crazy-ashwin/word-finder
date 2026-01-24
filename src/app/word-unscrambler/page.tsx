@@ -117,7 +117,7 @@ export default function WordUnscramblerPage() {
 					content='word unscrambler, word games, word puzzles, word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}word-unscrambler`} />
+				<link rel='canonical' href={`${baseUrl}/word-unscrambler`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>

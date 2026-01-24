@@ -36,7 +36,7 @@ export async function generateMetadata(): Promise<Metadata> {
 				title: "Grammar Guides | Word Finder",
 				description:
 					"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
-				url: `${baseUrl}grammar`,
+				url: `${baseUrl}/grammar`,
 				type: "website",
 			},
 			robots: "index, follow",
@@ -84,7 +84,7 @@ export async function generateMetadata(): Promise<Metadata> {
 			title: "Grammar Guides | Word Finder",
 			description:
 				"Comprehensive grammar resources: parts of speech, punctuation, tenses, and more.",
-			url: `${baseUrl}grammar`,
+			url: `${baseUrl}/grammar`,
 			type: "website",
 		},
 		robots: "index, follow",

@@ -12,7 +12,7 @@ export default function TermsPage() {
 				/>
 				<meta name='keywords' content='terms of service, service' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}terms`} />
+				<link rel='canonical' href={`${baseUrl}/terms`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-4xl mx-auto'>

@@ -80,7 +80,7 @@ export default function ScrabbleDictionaryPage() {
 					content='Scrabble dictionary, Scrabble words, Scrabble word list, Scrabble word finder, Scrabble word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}scrabble-dictionary`} />
+				<link rel='canonical' href={`${baseUrl}/scrabble-dictionary`} />
 			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>

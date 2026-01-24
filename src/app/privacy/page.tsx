@@ -12,7 +12,7 @@ export default function PrivacyPage() {
 				/>
 				<meta name='keywords' content='privacy, policy' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}privacy`} />
+				<link rel='canonical' href={`${baseUrl}/privacy`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-4xl mx-auto'>

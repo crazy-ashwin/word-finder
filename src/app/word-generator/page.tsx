@@ -220,7 +220,7 @@ export default function WordGeneratorPage() {
 					content='word generator, random words, creative writing, brainstorming'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}word-generator`} />
+				<link rel='canonical' href={`${baseUrl}/word-generator`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>

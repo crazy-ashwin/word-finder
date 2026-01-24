@@ -59,7 +59,7 @@ export default function WordFindersPage() {
 					content='word finders, word tools, word games, word puzzles, word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}word-finders`} />
+				<link rel='canonical' href={`${baseUrl}/word-finders`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>

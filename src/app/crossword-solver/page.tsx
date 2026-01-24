@@ -94,7 +94,7 @@ export default function CrosswordSolverPage() {
 					content='crossword solver, word games, word puzzles, word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}crossword-solver`} />
+				<link rel='canonical' href={`${baseUrl}/crossword-solver`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>

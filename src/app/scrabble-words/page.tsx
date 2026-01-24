@@ -80,7 +80,7 @@ export default function ScrabbleWordsPage() {
 					content='Scrabble words, Scrabble word list, Scrabble word finder, Scrabble word search'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}scrabble-words`} />
+				<link rel='canonical' href={`${baseUrl}/scrabble-words`} />
 			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>

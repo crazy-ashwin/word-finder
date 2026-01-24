@@ -580,7 +580,7 @@ export default function WordleHelperPage() {
 					content='wordle helper, wordle word finder, wordle puzzle, wordle suggestions'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}wordle-helper`} />
+				<link rel='canonical' href={`${baseUrl}/wordle-helper`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>

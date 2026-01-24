@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Confusing Words | Word Finder",
     description: "Clear comparisons of commonly confused words with examples and tips.",
-    url: `${baseUrl}confusing-words`,
+    url: `${baseUrl}/confusing-words`,
     type: "website",
   },
   robots: "index, follow",

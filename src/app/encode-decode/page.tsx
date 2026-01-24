@@ -130,7 +130,7 @@ dF('${encoded}');
         <meta name='description' content='Advanced HTML, text, and JavaScript encoding/decoding utilities for protecting your source code with military-grade obfuscation' />
         <meta name='keywords' content='encode/decode, html, text, javascript, encoding, decoding, obfuscation' />
         <meta name='robots' content='index, follow' />
-        <link rel='canonical' href={`${baseUrl}encode-decode`} />
+        <link rel='canonical' href={`${baseUrl}/encode-decode`} />
       </head>
       {/* Hero Section */}
       <div className="relative overflow-hidden">

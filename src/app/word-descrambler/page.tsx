@@ -77,7 +77,7 @@ export default function WordDescramblerPage() {
 						content='word descrambler, word unscrambler, word games, word puzzles, word search'
 					/>
 					<meta name='robots' content='index, follow' />
-					<link rel='canonical' href={`${baseUrl}word-descrambler`} />
+					<link rel='canonical' href={`${baseUrl}/word-descrambler`} />
 				</head>
 				<section className='max-w-2xl mx-auto p-6 w-full'>
 					<h1 className='text-3xl font-bold mb-2'>

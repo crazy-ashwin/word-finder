@@ -252,7 +252,7 @@ export default function GrammarRulesPage() {
 					content='grammar rules, english grammar, grammar examples, grammar practice'
 				/>
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}grammar-rules`} />
+				<link rel='canonical' href={`${baseUrl}/grammar-rules`} />
 			</head>
 			{/* Hero Section */}
 			<div className='bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white py-20'>

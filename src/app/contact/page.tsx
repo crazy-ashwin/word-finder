@@ -16,7 +16,7 @@ export default function ContactPage() {
 				/>
 				<meta name='keywords' content='contact, support, feedback' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}contact`} />
+				<link rel='canonical' href={`${baseUrl}/contact`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-4xl mx-auto'>

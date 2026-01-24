@@ -19,7 +19,7 @@ export default function ScrabbleScoreCalculatorFinder() {
 				<meta name='robots' content='index, follow' />
 				<link
 					rel='canonical'
-					href={`${baseUrl}scrabble-score-calculator-finder`}
+					href={`${baseUrl}/scrabble-score-calculator-finder`}
 				/>
 			</head>
 			{/* Hero Section */}

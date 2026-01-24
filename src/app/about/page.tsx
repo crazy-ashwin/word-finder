@@ -13,7 +13,7 @@ export default function AboutPage() {
 				/>
 				<meta name='keywords' content='about, mission, team' />
 				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}about`} />
+				<link rel='canonical' href={`${baseUrl}/about`} />
 			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-5xl mx-auto'>
