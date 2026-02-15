@@ -153,52 +153,14 @@ export default function WordleHelperPage() {
 					);
 				}
 			}
-
-			console.log(
-				"Sample API words:",
-				data.slice(0, 5).map((item: { word: string }) => item.word)
-			);
-			console.log("Sample filtered words:", wordleWords.slice(0, 5));
-
-			console.log("API Response:", data.length, "words fetched");
-			console.log(
-				"Filtered by length:",
-				wordleWords.length,
-				`${wordLength}-letter words`
-			);
-			console.log("Word length being processed:", wordLength);
-			console.log("Green letters:", correct);
-			console.log("Yellow letters:", misplaced);
-			console.log("Red letters:", wrongLetters);
-
 			// Check if any filtering criteria are provided
 			const hasGreenLetters = correct.some((letter) => letter !== "");
 			const hasYellowLetters = misplaced.some((letter) => letter !== "");
 			const hasRedLetters = wrongLetters.trim() !== "";
 
-			// Debug yellow letters specifically
-			console.log("=== YELLOW LETTER DEBUG ===");
-			console.log("misplaced array:", misplaced);
-			console.log("hasYellowLetters:", hasYellowLetters);
-			console.log(
-				"Yellow letters found:",
-				misplaced.filter((letter) => letter !== "")
-			);
-
-			console.log("Has green letters:", hasGreenLetters);
-			console.log("Has yellow letters:", hasYellowLetters);
-			console.log("Has red letters:", hasRedLetters);
-			console.log("Green letters array:", correct);
-			console.log("Yellow letters array:", misplaced);
-			console.log("Red letters string:", wrongLetters);
-			console.log("Red letters count:", wrongLetters.length);
 
 			// Show yellow letters with positions
 			if (hasYellowLetters) {
-				console.log("Yellow letters with positions:");
-				console.log(
-					"Yellow means: Letter is in the word but NOT at this position"
-				);
 				misplaced.forEach((letter, index) => {
 					if (letter) {
 						console.log(
@@ -216,13 +178,6 @@ export default function WordleHelperPage() {
 
 			// Only apply filtering if criteria are provided
 			if (hasGreenLetters || hasYellowLetters || hasRedLetters) {
-				console.log("Applying filtering logic...");
-				console.log("Filtering condition met - applying filters");
-				console.log(
-					"Processing",
-					wordleWords.length,
-					"words for filtering"
-				);
 
 				// Debug which filters are being applied
 				if (hasGreenLetters)
@@ -329,14 +284,6 @@ export default function WordleHelperPage() {
 				if (hasRedLetters)
 					console.log("  - We have red letters but no words passed");
 			}
-
-			console.log(
-				"After filtering:",
-				filteredWords.length,
-				"words match your clues"
-			);
-			console.log("Sample filtered words:", filteredWords.slice(0, 5));
-
 			// Simple test: Show first 5 words and their yellow letter status
 			if (hasYellowLetters) {
 				console.log("=== YELLOW LETTER TEST ===");
@@ -427,8 +374,7 @@ export default function WordleHelperPage() {
 				filteredWords.length === 0 &&
 				(hasGreenLetters || hasYellowLetters || hasRedLetters)
 			) {
-				console.log("No words match the criteria. Let's debug:");
-				console.log("Looking for words with:");
+				
 				if (hasGreenLetters) {
 					correct.forEach((letter, index) => {
 						if (letter)

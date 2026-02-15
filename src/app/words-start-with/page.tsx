@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsStartWithPage() {
 	const popularPrefixes = [
@@ -65,6 +66,19 @@ export default function WordsStartWithPage() {
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-green-50 to-white'>
+			<head>
+				<title>Words Starting With | Find Word Finder</title>
+				<meta
+					name='description'
+					content='Find words that start with specific letters or prefixes. Whether you&apos;re playing word games, solving crosswords, or expanding your vocabulary, our comprehensive database helps you discover words with any starting pattern. Search by prefix length, letter combinations, or browse popular word prefixes.'
+				/>
+				<meta
+					name='keywords'
+					content='words starting with, word games, crossword solver, vocabulary expansion, starting with, prefixes, letter combinations, popular word prefixes'
+				/>
+				<meta name='robots' content='index, follow' />
+				<link rel='canonical' href={`${baseUrl}/words-start-with`} />
+			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

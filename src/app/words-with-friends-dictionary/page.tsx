@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Users, Trophy, Gamepad2 } from "lucide-react";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsWithFriendsDictionaryPage() {
 	const wwfWords = [
@@ -71,6 +72,19 @@ export default function WordsWithFriendsDictionaryPage() {
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-blue-50 to-white'>
+			<head>
+				<title>Words With Friends Dictionary | Find Word Finder</title>
+				<meta
+					name='description'
+					content='Expand your vocabulary with our Words With Friends dictionary. Find valid WWF words, calculate scores, and learn meanings of over 173,000 playable words. Perfect for crossword enthusiasts and Scrabble lovers.'
+				/>
+				<meta
+					name='keywords'
+					content='words with friends dictionary, crossword solver, vocabulary expansion, scrabble, crossword, word games, word puzzles, word search, valid wwf words, score calculator, word meanings'
+				/>
+				<meta name='robots' content='index, follow' />
+				<link rel='canonical' href={`${baseUrl}/words-with-friends-dictionary`} />
+			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

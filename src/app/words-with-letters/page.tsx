@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Search } from "lucide-react";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsWithLettersPage() {
 	const exampleWords = [
@@ -64,8 +65,22 @@ export default function WordsWithLettersPage() {
 
 	const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
+
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-blue-50 to-white'>
+			<head>
+				<title>Words with Letters | Find Word Finder</title>
+							<meta
+								name='description'
+								content='words with letters, word games, word puzzles, word search, crossword solver, wordle helper'
+							/>
+							<meta
+								name='keywords'
+								content='words with letters, word games, word puzzles, word search, crossword solver, wordle helper, crossword solver, word games, word puzzles, word search'
+							/>
+							<meta name='robots' content='index, follow' />
+							<link rel='canonical' href={`${baseUrl}/words-with-letters`} />
+						</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

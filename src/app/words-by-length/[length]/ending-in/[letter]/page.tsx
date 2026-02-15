@@ -6,6 +6,7 @@ import { WordDetailsDialog } from "@/components/word-details-dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsByLengthEndingWithPage({
 	params,
@@ -115,6 +116,19 @@ export default function WordsByLengthEndingWithPage({
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-gray-50 to-white py-8'>
+			<head>
+				<title>{wordLength} Letter Words Ending in {letter.toUpperCase()}</title>
+				<meta
+					name='description'
+					content={`Find ${wordLength} letter words that end with ${letter.toUpperCase()}`}
+				/>
+				<meta
+					name='keywords'
+					content={`${wordLength} letter words, words ending in ${letter.toUpperCase()}, crossword solver, word games, word puzzles, word search`}
+				/>
+				<meta name='robots' content='index, follow' />
+				<link rel='canonical' href={`${baseUrl}/words-by-length/${wordLength}/ending-in/${letter.toUpperCase()}`} />
+			</head>
 			<div className='container mx-auto px-4'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

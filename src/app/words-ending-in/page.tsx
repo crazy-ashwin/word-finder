@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsEndingInPage() {
 	const popularEndings = [
@@ -60,6 +61,19 @@ export default function WordsEndingInPage() {
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-purple-50 to-white'>
+			<head>
+				<title>Words Ending In | Find Word Finder</title>
+				<meta
+					name='description'
+					content='Find words that end with specific letters or suffixes. Whether you&apos;re playing word games, solving crosswords, or expanding your vocabulary, our comprehensive database helps you discover words with any ending pattern. Search by suffix length, letter combinations, or browse popular word endings.'
+				/>
+				<meta
+					name='keywords'
+					content='words ending in, word games, crossword solver, vocabulary expansion, ending in, suffixes, letter combinations, popular word endings'
+				/>
+				<meta name='robots' content='index, follow' />
+				<link rel='canonical' href={`${baseUrl}/words-ending-in`} />
+			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

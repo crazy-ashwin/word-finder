@@ -11,6 +11,7 @@ import React from "react";
 import axios from "axios";
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
+import { baseUrl } from "@/lib/constant";
 
 export default function WordsByLengthPage({
 	params,
@@ -197,6 +198,19 @@ export default function WordsByLengthPage({
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-gray-50 to-white'>
+			<head>
+				<title>{wordLength} Letter Words | Find Word Finder</title>
+				<meta
+					name='description'
+					content={`Find ${wordLength} letter words that suit your crossword puzzle needs, including words that start with ${startsWith}, end with ${endsWith}, or contain ${contains}`}
+				/>
+				<meta
+					name='keywords'
+					content={`crossword solver, word games, word puzzles, word search, ${wordLength} letter words`}
+				/>
+				<meta name='robots' content='index, follow' />
+				<link rel='canonical' href={`${baseUrl}/words-by-length/${wordLength}/starting-with/${startsWith}`} />
+			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}
