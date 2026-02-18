@@ -4,18 +4,16 @@ import { useState, useEffect } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Search, Trophy, BookOpen } from "lucide-react";
+import {  Trophy, BookOpen } from "lucide-react";
 import Link from "next/link";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
 import axios from "axios";
-import { useSearchParams } from "next/navigation";
 
 type Props = {
   letters: string;
 };
 
 export default function WordsWithLettersDetailPage({ letters }: Props) {
-  const searchParams = useSearchParams();
   const [words, setWords] = useState<string[]>([]);
   const [filteredWords, setFilteredWords] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -38,7 +36,7 @@ export default function WordsWithLettersDetailPage({ letters }: Props) {
         const apiUrl = `https://api.datamuse.com/words?sp=*${letterPattern.toLowerCase()}*&max=100`;
         const res = await axios.get(apiUrl);
         const data = res.data;
-        let realWords = data
+        const realWords = data
           .map((item: { word: string }) => item.word)
           .filter((w: string) => w.toLowerCase().includes(letterPattern.toLowerCase()));
 

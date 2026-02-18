@@ -8,9 +8,8 @@ import { Trophy, BookOpen, Target } from "lucide-react";
 import Link from "next/link";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
 import axios from "axios";
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
-import { baseUrl } from "@/lib/constant";
 
 type Props = {
   letter: string;
@@ -174,8 +173,6 @@ export default function WordsStartWithLetterPage({ letter }: Props) {
 		router.push(`?${params.toString()}`);
 	};
 
-	const pathname = usePathname();
-  	const canonicalUrl = `${baseUrl}${pathname}`;
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-green-50 to-white'>

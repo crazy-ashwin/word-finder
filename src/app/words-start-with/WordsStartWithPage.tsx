@@ -4,7 +4,6 @@ import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
-import { baseUrl } from "@/lib/constant";
 
 export default function WordsStartWithPage() {
 	const popularPrefixes = [

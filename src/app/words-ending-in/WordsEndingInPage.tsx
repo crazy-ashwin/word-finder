@@ -5,7 +5,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight } from "lucide-react";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
-import { baseUrl } from "@/lib/constant";
 
 export default function WordsEndingInPage() {
 	const popularEndings = [
