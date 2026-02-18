@@ -400,15 +400,6 @@ function SearchContent() {
 
 	return (
 		<div className='min-h-screen bg-gray-50'>
-			{/* Breadcrumb */}
-			{/* <div className='bg-white border-b'>
-				<div className='container mx-auto px-4 py-3'>
-					<nav className='text-sm text-gray-600'>
-						FindWordFinder / Unscramble / Results
-					</nav>
-				</div>
-			</div> */}
-
 			<div className='container mx-auto px-4 py-8'>
 				{/* Mobile search filter at top */}
 				<div className='block lg:hidden mb-6'>

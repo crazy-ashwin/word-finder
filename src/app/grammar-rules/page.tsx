@@ -1,7 +1,16 @@
 "use client";
 
-import { baseUrl } from "@/lib/constant";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Grammar Rules | Find Word Finder",
+	description:
+		"Master the fundamentals of English grammar with comprehensive rules, examples, and interactive practice",
+	alternates: {
+		canonical: "/grammar-rules",
+	},
+};
 
 export default function GrammarRulesPage() {
 	const grammarCategories = [
@@ -241,19 +250,6 @@ export default function GrammarRulesPage() {
 
 	return (
 		<div className='min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50'>
-			<head>
-				<title>Grammar Rules | Find Word Finder</title>
-				<meta
-					name='description'
-					content='Master the fundamentals of English grammar with comprehensive rules, examples, and interactive practice'
-				/>
-				<meta
-					name='keywords'
-					content='grammar rules, english grammar, grammar examples, grammar practice'
-				/>
-				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}/grammar-rules`} />
-			</head>
 			{/* Hero Section */}
 			<div className='bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white py-20'>
 				<div className='container mx-auto px-4'>

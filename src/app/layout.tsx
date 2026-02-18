@@ -21,6 +21,9 @@ export const metadata: Metadata = {
 	creator: "Find Word Finder",
 	publisher: "Find Word Finder",
 	robots: "index, follow",
+	alternates: {
+		canonical: `${baseUrl}`,
+	},
 	openGraph: {
 		title: "Find Word Finder - Free Find Word Finder & Scrabble Helper Tools",
 		description:
@@ -74,7 +77,6 @@ export default function RootLayout({
 				<link rel='apple-touch-icon' href='/favicon.ico' />
 				<meta name='theme-color' content='#10b981' />
 				<link rel='manifest' href='/manifest.json' />
-				<link rel='canonical' href={baseUrl} />
 				<script
 					type='application/ld+json'
 					dangerouslySetInnerHTML={{

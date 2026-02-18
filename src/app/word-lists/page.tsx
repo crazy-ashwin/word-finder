@@ -1,7 +1,16 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
-import { baseUrl } from "@/lib/constant";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Word Lists | Find Word Finder",
+	description:
+		"Curated collections of words to improve your game. Whether you're preparing for a big Scrabble tournament or just looking to expand your vocabulary, our word lists have got you covered.",
+		alternates: {
+			canonical: "/word-lists",
+		},
+};
 
 export default function WordListsPage() {
 	const wordLists = [
@@ -61,19 +70,6 @@ export default function WordListsPage() {
 
 	return (
 		<div className='min-h-screen bg-gray-50 py-12'>
-			<head>
-				<title>Word Lists | Find Word Finder</title>
-				<meta
-					name='description'
-					content='Curated collections of words to improve your game. Whether you&apos;re preparing for a big Scrabble tournament or just looking to expand your vocabulary, our word lists have got you covered. From rare Q words to high-scoring X words, find the perfect list for your needs.'
-				/>
-				<meta
-					name='keywords'
-					content='word lists, vocabulary expansion, scrabble, crossword, word games, word puzzles, word search, valid words, high-scoring words, rare words'
-				/>
-				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}/word-lists`} />
-			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-6xl mx-auto'>
 					<h1 className='text-4xl font-bold text-center mb-8'>

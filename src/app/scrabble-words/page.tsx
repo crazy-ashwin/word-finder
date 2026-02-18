@@ -5,7 +5,17 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { BookOpen, Trophy } from "lucide-react";
 import { WordDetailsDialog } from "@/components/word-details-dialog";
-import { baseUrl } from "@/lib/constant";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+	title: "Scrabble Words | Find Word Finder",
+	description:
+		"Discover the best Scrabble words to boost your score! Our comprehensive database includes over 100,000 playable words from the Official Tournament and Club Word List (OTCWL).",
+	alternates: {
+		canonical: "/scrabble-words",
+	},
+};
 
 export default function ScrabbleWordsPage() {
 	const scrabbleWords = [
@@ -69,19 +79,6 @@ export default function ScrabbleWordsPage() {
 
 	return (
 		<div className='min-h-screen bg-gradient-to-b from-gray-50 to-white'>
-			<head>
-				<title>Scrabble Words | Find Word Finder</title>
-				<meta
-					name='description'
-					content='Discover the best Scrabble words to boost your score! Our comprehensive database includes over 100,000 playable words from the Official Tournament and Club Word List (OTCWL).'
-				/>
-				<meta
-					name='keywords'
-					content='Scrabble words, Scrabble word list, Scrabble word finder, Scrabble word search'
-				/>
-				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}/scrabble-words`} />
-			</head>
 			<div className='container mx-auto px-4 py-8'>
 				<div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
 					{/* Main Content */}

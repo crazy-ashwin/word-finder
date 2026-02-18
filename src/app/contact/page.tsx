@@ -3,21 +3,11 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, Twitter, Linkedin, Facebook } from "lucide-react";
-import { baseUrl } from "@/lib/constant";
+
 
 export default function ContactPage() {
 	return (
 		<div className='min-h-screen bg-gray-50 py-16'>
-			<head>
-				<title>Contact | Find Word Finder</title>
-				<meta
-					name='description'
-					content='Contact us for support and feedback'
-				/>
-				<meta name='keywords' content='contact, support, feedback' />
-				<meta name='robots' content='index, follow' />
-				<link rel='canonical' href={`${baseUrl}/contact`} />
-			</head>
 			<div className='container mx-auto px-4'>
 				<div className='max-w-4xl mx-auto'>
 					<div className='text-center mb-12'>

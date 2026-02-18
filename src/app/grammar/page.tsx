@@ -1,7 +1,16 @@
-"use client"
 
+import { Metadata } from "next"
 import Link from "next/link"
 import { grammarCategories } from "@/lib/grammar-data"
+
+export const metadata: Metadata = {
+  title: "Grammar Guides | Find Word Finder",
+  description: "Master the art of grammar with our comprehensive collection of grammar guides and resources.",
+  keywords: "grammar, grammar guides, grammar resources",
+  alternates: {
+    canonical: "/grammar",
+  },
+}
 
 export default function GrammarPage() {
   return (

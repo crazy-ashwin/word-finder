@@ -1,27 +1,20 @@
 "use client";
 
-import { baseUrl } from "@/lib/constant";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Scrabble Score Calculator | Find Word Finder",
+	description: "Scrabble score calculator for Find Word Finder",
+	keywords: "scrabble score calculator, scrabble, score calculator",
+	alternates: {
+		canonical: "/scrabble-score-calculator-finder",
+	},
+};
 
 export default function ScrabbleScoreCalculatorFinder() {
 	return (
 		<div className='min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50'>
-			<head>
-				<title>Scrabble Score Calculator | Find Word Finder</title>
-				<meta
-					name='description'
-					content='Scrabble score calculator for Find Word Finder'
-				/>
-				<meta
-					name='keywords'
-					content='scrabble score calculator, scrabble, score calculator'
-				/>
-				<meta name='robots' content='index, follow' />
-				<link
-					rel='canonical'
-					href={`${baseUrl}/scrabble-score-calculator-finder`}
-				/>
-			</head>
 			{/* Hero Section */}
 			<div className='bg-gradient-to-r from-green-500 to-emerald-600 text-white py-16'>
 				<div className='container mx-auto px-4 text-center'>
