@@ -1,34 +1,27 @@
-"use client";
+import type { Metadata } from "next";
+import WordsStartWithLetterPage from "./WordsStartWithLetterPage";
 
-import React, { useEffect } from "react";
-import { useRouter } from "next/navigation";
+type Props = {
+  params: Promise<{ letter: string }>;
+};
 
-export default function WordsStartWithLetterPage({
-	params,
-}: {
-	params: Promise<{ letter: string }>;
-}) {
-	const { letter } = React.use(params);
-	const router = useRouter();
+export async function generateMetadata(
+  { params }: Props
+): Promise<Metadata> {
+  const { letter } = await params;
+  const upperLetter = letter.toUpperCase();
 
-	useEffect(() => {
-		// Redirect to the words-by-length structure with a default length of 5
-		// Users can then filter by length if needed
-		router.replace(
-			`/words-by-length/5-letter-words?starts=${letter.toUpperCase()}`
-		);
-	}, [letter, router]);
+  return {
+    title: `Words Starting with ${upperLetter} - Find Words Beginning with ${upperLetter} | Find Word Finder`,
+    description: `Find all words starting with ${upperLetter}. Search our comprehensive database of words beginning with ${upperLetter} for Scrabble, Words with Friends, crosswords, and vocabulary building.`,
+    alternates: {
+      canonical: `/words-start-with/${letter}`,
+    },
+  };
+}
 
-	return (
-		<div className='min-h-screen bg-gradient-to-b from-green-50 to-white flex items-center justify-center'>
-			<div className='text-center'>
-				<div className='animate-spin rounded-full h-12 w-12 border-b-2 border-green-500 mx-auto mb-4'></div>
-				<p className='text-gray-600'>
-					Redirecting to words starting with &quot;
-					{letter.toUpperCase()}
-					&quot;...
-				</p>
-			</div>
-		</div>
-	);
+export default async function Page({ params }: Props) {
+  const { letter } = await params;
+
+  return <WordsStartWithLetterPage letter={letter} />;
 }
