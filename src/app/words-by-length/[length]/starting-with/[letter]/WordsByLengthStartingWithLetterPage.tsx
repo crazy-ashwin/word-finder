@@ -6,7 +6,6 @@ import { WordDetailsDialog } from "@/components/word-details-dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import axios from "axios";
-import { baseUrl } from "@/lib/constant";
 
 type Props = {
   length: string;
