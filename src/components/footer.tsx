@@ -23,7 +23,7 @@ export function Footer() {
 								W
 							</div>
 							<span className='text-xl font-semibold'>
-								Find Word Finder
+								Word Finder Word
 							</span>
 						</div>
 						<p className='text-gray-300 text-sm leading-relaxed'>
@@ -65,7 +65,7 @@ export function Footer() {
 								<Link
 									href='/'
 									className='text-gray-300 hover:text-white transition-colors text-sm'>
-									Find Word Finder
+									Word Finder Word
 								</Link>
 							</li>
 							<li>
